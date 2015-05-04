@@ -12,5 +12,6 @@ public class _8_CDIO3 implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 	
+
 	}
 }
