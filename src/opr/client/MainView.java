@@ -19,7 +19,7 @@ public class MainView extends Composite implements Login.Callback{
 	String PW = "";
 	final ILoginServiceAsync x = GWT.create(ILoginService.class);
 
-	public MainView() throws Exception{
+	public MainView() {
 
 
 		initWidget(this.vPanel);
