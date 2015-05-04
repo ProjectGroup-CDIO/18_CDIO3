@@ -13,6 +13,9 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 public class OperatoerDAO extends RemoteServiceServlet implements ILoginService {
 
+
+	private static final long serialVersionUID = 1L;
+
 	// primary key, autoincrement - not safe!
 	private static int id = 0;
 
