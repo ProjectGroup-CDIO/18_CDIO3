@@ -1,8 +1,9 @@
 package opr.client;
 
 
-import com.Assignment3.client.service.ILoginService;
-import com.Assignment3.client.service.ILoginServiceAsync;
+import opr.client.service.ILoginService;
+import opr.client.service.ILoginServiceAsync;
+
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;

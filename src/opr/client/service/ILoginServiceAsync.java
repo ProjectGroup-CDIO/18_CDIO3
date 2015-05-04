@@ -1,7 +1,9 @@
 package opr.client.service;
 
 import java.util.List;
-import com.Assignment3.shared.OperatoerDTO;
+
+import opr.shared.OperatoerDTO;
+
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
 

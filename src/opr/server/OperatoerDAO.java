@@ -3,8 +3,9 @@ package opr.server;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.Assignment3.client.service.ILoginService;
-import com.Assignment3.shared.OperatoerDTO;
+import opr.client.service.ILoginService;
+import opr.shared.OperatoerDTO;
+
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 
