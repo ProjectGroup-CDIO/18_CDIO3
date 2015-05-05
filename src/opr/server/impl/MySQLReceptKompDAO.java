@@ -5,10 +5,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.ReceptKompDAO;
-import dto01917.ReceptKompDTO;
+import opr.server.interfaces.ReceptKompDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.ReceptKompDTO;
+
 
 public class MySQLReceptKompDAO implements ReceptKompDAO {
 

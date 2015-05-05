@@ -5,10 +5,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.ProduktBatchDAO;
-import dto01917.ProduktBatchDTO;
+import opr.server.interfaces.ProduktBatchDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.ProduktBatchDTO;
+
 
 public class MySQLProduktBatchDAO implements ProduktBatchDAO{
 
@@ -20,7 +21,7 @@ public class MySQLProduktBatchDAO implements ProduktBatchDAO{
 			return new ProduktBatchDTO (rs.getInt("pb_id"), rs.getInt("status"), rs.getInt("recept_id"));
 		}
 		catch (SQLException e) {
-			throw new DALException(e); 
+			throw new DALException(e.getMessage()); 
 		}	
 	}
 
@@ -36,7 +37,7 @@ public class MySQLProduktBatchDAO implements ProduktBatchDAO{
 				list.add(new ProduktBatchDTO(rs.getInt("pb_id"), rs.getInt("status"), rs.getInt("recept_id")));
 			}
 		}
-		catch (SQLException e) { throw new DALException(e); }
+		catch (SQLException e) { throw new DALException(e.getMessage()); }
 		return list;
 	}
 

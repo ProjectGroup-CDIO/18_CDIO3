@@ -2,7 +2,8 @@ package opr.server.interfaces;
 
 import java.util.List;
 
-import dto01917.ProduktBatchDTO;
+import opr.shared.DALException;
+import opr.shared.ProduktBatchDTO;
 
 public interface ProduktBatchDAO {
 	ProduktBatchDTO getProduktBatch(int pbId) throws DALException;

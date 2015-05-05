@@ -1,85 +1,52 @@
 package opr.shared;
 
-import java.io.Serializable;
+/**
+ * Operatoer Data Access Objekt
+ * 
+ * @author mn/tb
+ * @version 1.2
+ */
 
-public class OperatoerDTO implements Serializable {
+public class OperatoerDTO
+{
+	/** Operatoer-identifikationsnummer (opr_id) i omraadet 1-99999999. Vaelges af brugerne */
+	int oprId;                     
+	/** Operatoernavn (opr_navn) min. 2 max. 20 karakterer */
+	String oprNavn;                
+	/** Operatoer-initialer min. 2 max. 3 karakterer */
+	String ini;                 
+	/** Operatoer cpr-nr 10 karakterer */
+	String cpr;                 
+	/** Operatoer password min. 7 max. 8 karakterer */
+	String password;            
 
-	
-	private static final long serialVersionUID = 1L;
-	
-	private int id;
-	private String username;
-	private String password;
-	private String navn;
-	private int alder;
-	
-	// default constructor - must be defined
-	public OperatoerDTO() {
-		
-	}
-	/**
-	 * For login checks:
-	 * @param username
-	 * @param password
-	 */
-	public OperatoerDTO(String username, String password){
-		super();
-		this.username = username;
-		this.password = password;
-		
-	}
-	public OperatoerDTO(String username, String password, int id){
-		super();
-		this.id = id;
-		this.username = username;
-		this.password = password;
-		
-	}
-
-
-	public OperatoerDTO(String username, String password, int id, String navn, int alder) {
-		super();
-		this.username = username;
-		this.password = password;
-		this.id = id;
-		this.navn = navn;
-		this.alder = alder;
-	}
-	
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
+	public OperatoerDTO(int oprId, String oprNavn, String ini, String cpr, String password)
+	{
+		this.oprId = oprId;
+		this.oprNavn = oprNavn;
+		this.ini = ini;
+		this.cpr = cpr;
 		this.password = password;
 	}
 	
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	
-	public String getNavn() {
-		return navn;
-	}
-	public void setNavn(String navn) {
-		this.navn = navn;
-	}
-	
-	public int getAlder() {
-		return alder;
-	}
-	
-	public void setAlder(int alder) {
-		this.alder = alder;
-	}
+    public OperatoerDTO(OperatoerDTO opr)
+    {
+    	this.oprId = opr.getOprId();
+    	this.oprNavn = opr.getOprNavn();
+    	this.ini = opr.getIni();
+    	this.cpr = opr.getCpr();
+    	this.password = opr.getPassword();
+    }
+    
+    public int getOprId() { return oprId; }
+	public void setOprId(int oprId) { this.oprId = oprId; }
+	public String getOprNavn() { return oprNavn; }
+	public void setOprNavn(String oprNavn) { this.oprNavn = oprNavn; }
+	public String getIni() { return ini; }
+	public void setIni(String ini) { this.ini = ini; }
+	public String getCpr() { return cpr; }
+	public void setCpr(String cpr) { this.cpr = cpr; }
+	public String getPassword() { return password; }
+	public void setPassword(String password) { this.password = password; }
+	public String toString() { return oprId + "\t" + oprNavn + "\t" + ini + "\t" + cpr + "\t" + password; }
 }

@@ -5,10 +5,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.OperatoerDAO;
-import dto01917.OperatoerDTO;
+import opr.server.interfaces.OperatoerDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.OperatoerDTO;
+
 
 public class MySQLOperatoerDAO implements OperatoerDAO {
 	public OperatoerDTO getOperatoer(int oprId) throws DALException {
@@ -17,7 +18,7 @@ public class MySQLOperatoerDAO implements OperatoerDAO {
 	    	if (!rs.first()) throw new DALException("Operatoeren " + oprId + " findes ikke");
 	    	return new OperatoerDTO (rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"), rs.getString("cpr"), rs.getString("password"));
 	    }
-	    catch (SQLException e) {throw new DALException(e); }
+	    catch (SQLException e) {throw new DALException(e.getMessage()); }
 		
 	}
 	
@@ -47,7 +48,7 @@ public class MySQLOperatoerDAO implements OperatoerDAO {
 				list.add(new OperatoerDTO(rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"), rs.getString("cpr"), rs.getString("password")));
 			}
 		}
-		catch (SQLException e) { throw new DALException(e); }
+		catch (SQLException e) { throw new DALException(e.getMessage()); }
 		return list;
 	}
 		

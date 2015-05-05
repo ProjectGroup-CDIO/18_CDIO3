@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.ProduktBatchKompDAO;
-import dto01917.ProduktBatchKompDTO;
+import opr.server.interfaces.ProduktBatchKompDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.ProduktBatchKompDTO;
 
 public class MySQLProduktBatchKompDAO implements ProduktBatchKompDAO{
 
@@ -19,7 +19,7 @@ public class MySQLProduktBatchKompDAO implements ProduktBatchKompDAO{
 			if (!rs.first()) throw new DALException("Komponenten " + pbId + " findes ikke");
 			return new ProduktBatchKompDTO (rs.getInt("pb_id"), rs.getInt("rb_id"), rs.getDouble("tara"), rs.getDouble("netto"), rs.getInt("opr_id"));
 		}
-		catch (SQLException e) {throw new DALException(e); 
+		catch (SQLException e) {throw new DALException(e.getMessage()); 
 		}
 	}
 
@@ -34,7 +34,7 @@ public class MySQLProduktBatchKompDAO implements ProduktBatchKompDAO{
 				list.add(new ProduktBatchKompDTO(rs.getInt("pb_id"), rs.getInt("rb_id"), rs.getDouble("tara"), rs.getDouble("netto"), rs.getInt("opr_id")));
 			}
 		}
-		catch (SQLException e) { throw new DALException(e); }
+		catch (SQLException e) { throw new DALException(e.getMessage()); }
 		return list;
 	}
 
@@ -51,7 +51,7 @@ public class MySQLProduktBatchKompDAO implements ProduktBatchKompDAO{
 						rs.getDouble("tara"), rs.getDouble("netto"), rs.getInt("opr_id")));
 			}
 		}
-		catch (SQLException e) { throw new DALException(e); }
+		catch (SQLException e) { throw new DALException(e.getMessage()); }
 		return list;
 	}
 

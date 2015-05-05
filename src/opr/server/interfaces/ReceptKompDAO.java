@@ -2,7 +2,8 @@ package opr.server.interfaces;
 
 import java.util.List;
 
-import dto01917.ReceptKompDTO;
+import opr.shared.DALException;
+import opr.shared.ReceptKompDTO;
 
 public interface ReceptKompDAO {
 	ReceptKompDTO getReceptKomp(int receptId, int raavareId) throws DALException;

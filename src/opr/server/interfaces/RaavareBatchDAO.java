@@ -2,7 +2,8 @@ package opr.server.interfaces;
 
 import java.util.List;
 
-import dto01917.RaavareBatchDTO;
+import opr.shared.DALException;
+import opr.shared.RaavareBatchDTO;
 
 public interface RaavareBatchDAO {
 	RaavareBatchDTO getRaavareBatch(int rbId) throws DALException;

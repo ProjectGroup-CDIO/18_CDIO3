@@ -2,7 +2,8 @@ package opr.server.interfaces;
 
 import java.util.List;
 
-import dto01917.RaavareDTO;
+import opr.shared.DALException;
+import opr.shared.RaavareDTO;
 
 public interface RaavareDAO {
 	RaavareDTO getRaavare(int raavareId) throws DALException;

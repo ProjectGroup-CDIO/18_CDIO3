@@ -5,10 +5,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.RaavareDAO;
-import dto01917.RaavareDTO;
+import opr.server.interfaces.RaavareDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.RaavareDTO;
+
 
 public class MySQLRaavareDAO implements RaavareDAO{
 
@@ -19,7 +20,7 @@ public class MySQLRaavareDAO implements RaavareDAO{
 			if (!rs.first()) throw new DALException("Raavaren " + raavareId + " findes ikke");
 			return new RaavareDTO (rs.getInt("raavre_id"), rs.getString("raavare_navn"), rs.getString("leverandoer"));
 		}
-		catch (SQLException e) {throw new DALException(e); }
+		catch (SQLException e) {throw new DALException(e.getMessage()); }
 
 	}
 
@@ -34,7 +35,7 @@ public class MySQLRaavareDAO implements RaavareDAO{
 				list.add(new RaavareDTO(rs.getInt("raavre_id"), rs.getString("raavare_navn"), rs.getString("leverandoer")));
 			}
 		}
-		catch (SQLException e) { throw new DALException(e); }
+		catch (SQLException e) { throw new DALException(e.getMessage()); }
 		return list;
 	}
 

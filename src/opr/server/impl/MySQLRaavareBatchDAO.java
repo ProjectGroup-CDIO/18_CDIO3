@@ -5,10 +5,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import connector01917.Connector;
-import daointerfaces01917.DALException;
-import daointerfaces01917.RaavareBatchDAO;
-import dto01917.RaavareBatchDTO;
+import opr.server.interfaces.RaavareBatchDAO;
+import opr.shared.Connector;
+import opr.shared.DALException;
+import opr.shared.RaavareBatchDTO;
+
 
 public class MySQLRaavareBatchDAO implements RaavareBatchDAO {
 
