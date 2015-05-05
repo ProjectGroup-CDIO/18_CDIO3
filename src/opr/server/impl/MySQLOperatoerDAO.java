@@ -5,14 +5,24 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+
+import opr.client.service.ILoginService;
+import opr.client.service.ILoginServiceAsync;
 import opr.server.interfaces.OperatoerDAO;
 import opr.shared.Connector;
 import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
 
 
-public class MySQLOperatoerDAO implements OperatoerDAO {
+public class MySQLOperatoerDAO extends RemoteServiceServlet implements OperatoerDAO, ILoginService {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public OperatoerDTO getOperatoer(int oprId) throws DALException {
 		ResultSet rs = Connector.doQuery("SELECT * FROM operatoer WHERE opr_id = " + oprId);
 	    try {
@@ -66,9 +76,16 @@ public class MySQLOperatoerDAO implements OperatoerDAO {
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");
 		}
-	}	
-			
-//			return operatoerDTO;
+	}
+
+	@Override
+	public void deleteOperatoer(OperatoerDTO p) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
 
 		
 		
