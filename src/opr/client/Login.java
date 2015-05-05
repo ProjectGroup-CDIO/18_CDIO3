@@ -21,7 +21,7 @@ public class Login extends Composite {
 	TextBox password = new TextBox();
 
 	public interface Callback{
-		public void loginSucces(String UName, String PassW);
+		public void loginSucces(OperatoerDTO activeUser);
 		public void loginFailiure();
 	}
 
@@ -39,22 +39,23 @@ public class Login extends Composite {
 			public void onClick(ClickEvent event) {
 				try {
 
-					x.loginVerify(new OperatoerDTO(username.getText(), password.getText()), new AsyncCallback<Boolean>() {
+					x.loginVerify(new OperatoerDTO(username.getText(), password.getText()), new AsyncCallback<OperatoerDTO>() {
 
 						@Override
 						public void onFailure(Throwable caught) {
 							Window.alert("Server fejl! " + caught.getMessage());
 						}
 						@Override
-						public void onSuccess(Boolean result) {
-							if(result){
-								vPanel.clear();
-								vPanel.add(new Label("U have logged in - please wait for login screen."));
+						public void onSuccess(OperatoerDTO data) {
+						
+							if(data.getId() >= 0){
+								c.loginSucces(data);
+								vPanel.add(new Label(data.getUsername()));
 							}else{
-								vPanel.add(new Label("Wrong username and/or password"));
+								c.loginFailiure();
 							}
-
 						}
+						
 
 					});
 				} catch (Exception e) {

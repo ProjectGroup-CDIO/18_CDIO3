@@ -3,6 +3,7 @@ package opr.client;
 
 import opr.client.service.ILoginService;
 import opr.client.service.ILoginServiceAsync;
+import opr.shared.OperatoerDTO;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.Composite;
@@ -18,6 +19,7 @@ public class MainView extends Composite implements Login.Callback{
 	String UName = "";
 	String PW = "";
 	final ILoginServiceAsync x = GWT.create(ILoginService.class);
+	ActiveUser actUser;
 
 	public MainView() {
 
@@ -32,13 +34,16 @@ public class MainView extends Composite implements Login.Callback{
 
 	}
 
-	public void loginSucces(String UName, String passW) {
-		this.vPanel.clear();
-		HelloWorld ellloooo = new HelloWorld(UName,PW);
-		this.vPanel.add(ellloooo);
-
-	}
 	public void loginFailiure(){
+		
+	}
+
+	@Override
+	public void loginSucces(OperatoerDTO activeUser) {
+		//this.vPanel.clear();
+		actUser = new ActiveUser(activeUser); 
+		//MenuScreen ellloooo = new MenuScreen(UName,PW);
+		//this.vPanel.add(ellloooo);
 		
 	}
 

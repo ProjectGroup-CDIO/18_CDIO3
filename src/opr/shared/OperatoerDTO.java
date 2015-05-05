@@ -7,7 +7,7 @@ public class OperatoerDTO implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private int id;
+	private int id = -5;
 	private String username;
 	private String password;
 	private String navn;

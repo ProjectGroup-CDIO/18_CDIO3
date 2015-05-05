@@ -11,7 +11,7 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 
 public interface ILoginServiceAsync {
 	
-	void loginVerify(OperatoerDTO p, AsyncCallback<Boolean> callback);
+	void loginVerify(OperatoerDTO p, AsyncCallback<OperatoerDTO> callback);
 	void updateLogin(OperatoerDTO p, AsyncCallback<Void> callback)throws Exception;
 	void deleteOperatoer(OperatoerDTO p, AsyncCallback<Void> callback)throws Exception;
 	void createOperatoer(OperatoerDTO p, AsyncCallback<Void> callback)throws Exception;

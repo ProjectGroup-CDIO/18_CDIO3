@@ -3,6 +3,7 @@ package opr.server;
 import java.util.ArrayList;
 import java.util.List;
 
+import opr.client.ActiveUser;
 import opr.client.service.ILoginService;
 import opr.shared.OperatoerDTO;
 
@@ -56,15 +57,24 @@ public class OperatoerDAO extends RemoteServiceServlet implements ILoginService 
 				pList.remove(i);
 
 	}
-	public boolean loginVerify(OperatoerDTO operatoerDTO)throws Exception{
+	public OperatoerDTO loginVerify(OperatoerDTO operatoerDTO)throws Exception{
+	/*
+	 *Here check if the partly filled oprDTO matches uName and pass with one in the datebase.
+	 * we then return the found in the database, on failiure we return the recieved oprDTO
+	 * 
+	 */
 		for(int i  = 0; i <pList.size(); i++){
 			if(pList.get(i).getUsername().equals(operatoerDTO.getUsername())){
 				if(pList.get(i).getPassword().equals(operatoerDTO.getPassword())){
-					return true;
+					//tanker omkring active users osv
+					return pList.get(i);
+					
 				}
 			}
-		}		
-		return false;
+		}
+		
+		
+		return operatoerDTO;
 
 
 	}
