@@ -15,9 +15,9 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class Login extends Composite {
 	private VerticalPanel vPanel = new VerticalPanel();
-	Label lblOne = new Label("Username ");
+	Label lblOne = new Label("User ID ");
 	Label lblTwo = new Label("Password ");
-	TextBox username = new TextBox();
+	TextBox userID = new TextBox();
 	TextBox password = new TextBox();
 
 	public interface Callback{
@@ -30,7 +30,7 @@ public class Login extends Composite {
 		//this.c = c;
 		this.initWidget(vPanel);
 		vPanel.add(lblOne);
-		vPanel.add(username);
+		vPanel.add(userID);
 		vPanel.add(lblTwo);
 		vPanel.add(password);
 
@@ -39,7 +39,7 @@ public class Login extends Composite {
 			public void onClick(ClickEvent event) {
 				try {
 
-					x.loginVerify(new OperatoerDTO(username.getText(), password.getText()), new AsyncCallback<OperatoerDTO>() {
+					x.loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
 
 						@Override
 						public void onFailure(Throwable caught) {
@@ -48,9 +48,9 @@ public class Login extends Composite {
 						@Override
 						public void onSuccess(OperatoerDTO data) {
 						
-							if(data.getId() >= 0){
+							if(data.getOprId() >= 0){
 								c.loginSucces(data);
-								vPanel.add(new Label(data.getUsername()));
+								vPanel.add(new Label(data.getOprNavn()));
 							}else{
 								c.loginFailiure();
 							}
@@ -69,7 +69,7 @@ public class Login extends Composite {
 
 	}
 	public String getUName() {
-		return username.getText();
+		return userID.getText();
 	}
 	public String getPassW() {
 		return password.getText();

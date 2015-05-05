@@ -13,7 +13,7 @@ public interface ILoginService extends RemoteService{
 	public void createOperatoer(OperatoerDTO p)throws Exception;
 	public void updateLogin(OperatoerDTO p)throws Exception;
 	public void deleteOperatoer(OperatoerDTO p)throws Exception;
-	public OperatoerDTO loginVerify(OperatoerDTO p)throws Exception;
+	public OperatoerDTO loginVerify(int oprId, String pass)throws Exception;
 	public List<OperatoerDTO> getOperatoerer() throws Exception;
 	
 }

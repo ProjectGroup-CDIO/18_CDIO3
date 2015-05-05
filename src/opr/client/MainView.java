@@ -14,12 +14,13 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class MainView extends Composite implements Login.Callback{
 
+	private OperatoerDTO activeUser;
 	private VerticalPanel vPanel = new VerticalPanel();
 	private Login login;
 	String UName = "";
 	String PW = "";
 	final ILoginServiceAsync x = GWT.create(ILoginService.class);
-	ActiveUser actUser;
+
 
 	public MainView() {
 
@@ -40,10 +41,8 @@ public class MainView extends Composite implements Login.Callback{
 
 	@Override
 	public void loginSucces(OperatoerDTO activeUser) {
-		//this.vPanel.clear();
-		actUser = new ActiveUser(activeUser); 
-		//MenuScreen ellloooo = new MenuScreen(UName,PW);
-		//this.vPanel.add(ellloooo);
+		vPanel.clear();
+		this.activeUser = activeUser;
 		
 	}
 
