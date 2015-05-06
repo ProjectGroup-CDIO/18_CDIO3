@@ -4,7 +4,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-public class MenuScreen extends Composite {
+public class MenuView extends Composite {
 	private VerticalPanel vPanel = new VerticalPanel();
 	String Uname;
 	String Pword;
@@ -12,7 +12,7 @@ public class MenuScreen extends Composite {
 	
 	
 
-	public MenuScreen(String Username, String Password){
+	public MenuView(String Username, String Password){
 		this.initWidget(vPanel);
 		Uname = Username;
 		Pword = Password;

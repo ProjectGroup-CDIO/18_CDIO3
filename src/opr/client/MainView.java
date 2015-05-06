@@ -36,7 +36,7 @@ public class MainView extends Composite implements Login.Callback{
 	}
 
 	public void loginFailiure(){
-		
+
 	}
 
 	@Override

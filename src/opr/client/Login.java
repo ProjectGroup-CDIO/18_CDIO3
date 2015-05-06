@@ -39,12 +39,14 @@ public class Login extends Composite {
 			public void onClick(ClickEvent event) {
 				try {
 					vPanel.add(new Label("test1"));
-
+					
 					x.loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
 
 						@Override
 						public void onFailure(Throwable caught) {
 							Window.alert("Server fejl! " + caught.getMessage());
+							userID.setText("");
+							password.setText("");
 						}
 						@Override
 						public void onSuccess(OperatoerDTO data) {
@@ -55,12 +57,8 @@ public class Login extends Composite {
 								vPanel.add(new Label("test3"));
 								c.loginSucces(data);
 								vPanel.add(new Label(data.getOprNavn()));
-							}else{
-								c.loginFailiure();
 							}
 						}
-
-
 					});
 				} catch (Exception e) {
 					e.printStackTrace();
