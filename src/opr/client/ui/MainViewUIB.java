@@ -11,7 +11,6 @@ public class MainViewUIB extends Composite {
 
 	private static MainViewUIBUiBinder uiBinder = GWT
 			.create(MainViewUIBUiBinder.class);
-	@UiField DockPanel dPanel;
 
 	interface MainViewUIBUiBinder extends UiBinder<Widget, MainViewUIB> {
 	}
