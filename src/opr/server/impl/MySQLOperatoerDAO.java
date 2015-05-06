@@ -5,15 +5,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-
 import opr.client.service.ILoginService;
-import opr.client.service.ILoginServiceAsync;
 import opr.server.interfaces.OperatoerDAO;
 import opr.shared.Connector;
 import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
+
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 
 public class MySQLOperatoerDAO extends RemoteServiceServlet implements OperatoerDAO, ILoginService {
@@ -21,6 +19,25 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	/**
 	 * 
 	 */
+	public MySQLOperatoerDAO(){
+		try {
+			new Connector();
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
 	private static final long serialVersionUID = 1L;
 
 	public OperatoerDTO getOperatoer(int oprId) throws DALException {
@@ -70,8 +87,9 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		 * 
 		 */
 		OperatoerDTO opr;
+		System.out.println("test 5");
 		if((opr = getOperatoer(oprId)).getPassword().equals(pass)){
-			
+			System.out.println("test 6");
 			return opr;
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");
