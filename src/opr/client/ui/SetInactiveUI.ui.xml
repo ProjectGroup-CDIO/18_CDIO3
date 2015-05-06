@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="300px">
+			<g:at top="10" left="10">
+				<g:VerticalPanel width="100px" height="100px">
+					<g:Button width="100px">Logout</g:Button>
+					<g:Button width="100px">Add</g:Button>
+					<g:Button width="100px">Edit</g:Button>
+					<g:Button width="100px">Inactive</g:Button>
+				</g:VerticalPanel>
+			</g:at>
+			<g:at top="10" left="116">
+				<g:ListBox visibleItemCount="5" width="216px" height="209px"/>
+			</g:at>
+			<g:at top="10" left="338">
+				<g:Button ui:field="button">Inactivate</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
