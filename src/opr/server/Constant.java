@@ -1,4 +1,4 @@
-package opr.shared;
+package opr.server;
 
 
 // erstat konstanterne nedenfor

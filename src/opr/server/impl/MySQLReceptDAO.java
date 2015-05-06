@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import opr.server.Connector;
 import opr.server.interfaces.ReceptDAO;
-import opr.shared.Connector;
 import opr.shared.DALException;
 import opr.shared.ReceptDTO;
 

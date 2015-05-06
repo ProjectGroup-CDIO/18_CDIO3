@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import opr.server.Connector;
 import opr.server.interfaces.OperatoerDAO;
-import opr.shared.Connector;
 import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
 
@@ -56,12 +56,11 @@ public class MySQLOperatoerDAO implements OperatoerDAO {
 	public OperatoerDTO loginVerify(int oprId, String pass)throws Exception{
 		/*
 		 *Here check if the partly filled oprDTO matches uName and pass with one in the datebase.
-		 * we then return the found in the database, on failiure we return the recieved oprDTO
+		 * we then return the found in the database, on failure we return the recieved oprDTO
 		 * 
 		 */
 		OperatoerDTO opr;
 		if((opr = getOperatoer(oprId)).getPassword().equals(pass)){
-			
 			return opr;
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");
