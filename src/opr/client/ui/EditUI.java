@@ -4,6 +4,8 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.uibinder.client.UiHandler;
+import com.google.gwt.event.dom.client.ClickEvent;
 
 public class EditUI extends Composite {
 
@@ -14,5 +16,8 @@ public class EditUI extends Composite {
 
 	public EditUI() {
 		initWidget(uiBinder.createAndBindUi(this));
+	}
+	@UiHandler("uiLogout")
+	void onUiLogoutClick(ClickEvent event) {
 	}
 }
