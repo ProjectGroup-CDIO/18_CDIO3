@@ -4067,3 +4067,3585 @@ Rebinding opr.client.ui.MainViewUIB_MainViewUIBUiBinderImpl_designTime1430907495
       Compiling...
          Compilation completed in 0,00 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2754 units from cache.
+Compiling...
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   70% complete (ETR: 2 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 9,26 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908015465.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908015465.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908015465_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908017457.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908017457.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908017457_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908025051.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908025051.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908025051_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2753 cached/archived units.  Used 2753 / 2754 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Validating units:
+   Errors in 'file:/Users/Pede/git/18_CDIO3/src/opr/client/ui/SetInactiveUI.java'
+      Line 28: button cannot be resolved
+      Line 32: button cannot be resolved
+      Line 36: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI.LoginUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908045637.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908045637.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908045637_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI.LoginUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908046368.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908046368.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.LoginUI_LoginUIUiBinderImpl_designTime1430908046368_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908066512.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908066512.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908066512_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908069819.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908069819.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908069819_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908071742.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908071742.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908071742_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908081015.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908081015.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908081015_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908083250.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908083250.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908083250_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908085079.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908085079.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908085079_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908090398.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908090398.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908090398_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908092019.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908092019.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908092019_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908096599.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908096599.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908096599_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908101654.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908101654.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908101654_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908108741.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908108741.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908108741_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908116662.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908116662.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908116662_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908120803.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908120803.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908120803_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908124572.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908124572.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908124572_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908131586.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908131586.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908131586_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908147011.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908147011.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908147011_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908148415.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908148415.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908148415_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908152754.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908152754.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908152754_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908234886.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908234886.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908234886_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908237661.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908237661.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908237661_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908242555.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908242555.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908242555_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908247150.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908247150.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908247150_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908259952.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908259952.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908259952_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908264851.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908264851.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908264851_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908269618.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908269618.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908269618_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908284559.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908284559.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908284559_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908288928.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908288928.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908288928_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908294884.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908294884.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908294884_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908308399.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908308399.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908308399_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908310330.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908310330.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908310330_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908315951.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908315951.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908315951_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908319397.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908319397.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908319397_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908323288.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908323288.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908323288_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908327221.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908327221.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908327221_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908328810.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908328810.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908328810_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908341694.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908341694.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908341694_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908531427.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908531427.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908531427_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908536908.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908536908.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908536908_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908557071.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908557071.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908557071_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2754 units from cache.
+Compiling...
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 11,77 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639271.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639271.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639271_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639865.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639865.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908639865_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908654861.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908654861.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908654861_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908657172.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908657172.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908657172_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658810.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658810.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658810_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658879.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658879.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908658879_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659901.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659901.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659901_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659975.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659975.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908659975_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908682027.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908682027.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908682027_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908689096.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908689096.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908689096_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908696060.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908696060.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908696060_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908708094.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908708094.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908708094_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908718038.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908718038.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908718038_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908722363.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908722363.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908722363_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908766852.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908766852.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908766852_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908776109.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908776109.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908776109_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908778891.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908778891.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908778891_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908779960.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908779960.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908779960_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908785921.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908785921.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908785921_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908791013.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908791013.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908791013_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908793145.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908793145.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908793145_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908794802.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908794802.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908794802_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908813386.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908813386.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908813386_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908815148.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908815148.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908815148_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908831337.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908831337.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908831337_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908833335.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908833335.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908833335_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908836548.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908836548.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908836548_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908838624.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908838624.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908838624_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908845241.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908845241.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908845241_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908847625.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908847625.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908847625_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908849108.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908849108.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908849108_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908851069.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908851069.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908851069_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908857791.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908857791.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908857791_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908863686.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908863686.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908863686_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908867635.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908867635.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908867635_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908875974_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876015_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876364_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876386_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876469.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876469.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908876469_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908879953.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908879953.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908879953_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908882376.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908882376.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908882376_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908889021.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908889021.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908889021_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908893566.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908893566.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908893566_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908897965.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908897965.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908897965_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908905086.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908905086.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908905086_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908912412_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908912456.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908912456.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908912456_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914715_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914732.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914732.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914732_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914789.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914789.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908914789_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908916138.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908916138.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908916138_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908919406.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908919406.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908919406_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908927623.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908927623.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908927623_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908940663.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908940663.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908940663_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908946962.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908946962.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908946962_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908957978.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908957978.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908957978_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908961989.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908961989.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908961989_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908975090.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908975090.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908975090_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908976592.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908976592.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908976592_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908995068.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908995068.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430908995068_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909003732.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909003732.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909003732_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909005336.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909005336.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909005336_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909019377.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909019377.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909019377_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909029299.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909029299.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909029299_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909031433.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909031433.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909031433_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909034828.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909034828.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909034828_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909041049.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909041049.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909041049_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909053883.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909053883.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909053883_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Class AbsolutePanel has no appropriate setTop() method: <g:AbsolutePanel height='120px' left='0' top='36' width='450px'> (:10)
+[ERROR] Deferred binding failed for 'opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 125 cached/archived units.  Used 125 / 2754 units from cache.
+Compiling...
+   20% complete (ETR: 19 seconds)
+   20% complete (ETR: 19 seconds)
+   20% complete (ETR: 19 seconds)
+   30% complete (ETR: 16 seconds)
+   40% complete (ETR: 15 seconds)
+   50% complete (ETR: 13 seconds)
+   60% complete (ETR: 10 seconds)
+   70% complete (ETR: 8 seconds)
+   80% complete (ETR: 5 seconds)
+   90% complete (ETR: 3 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 26,48 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Class AbsolutePanel has no appropriate setTop() method: <g:AbsolutePanel height='120px' left='0' top='36' width='450px'> (:10)
+[ERROR] Deferred binding failed for 'opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2754 cached/archived units.  Used 2754 / 2754 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Class AbsolutePanel has no appropriate setTop() method: <g:AbsolutePanel height='120px' left='0' top='36' width='450px'> (:10)
+[ERROR] Deferred binding failed for 'opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2754 cached/archived units.  Used 2754 / 2754 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Class AbsolutePanel has no appropriate setTop() method: <g:AbsolutePanel height='120px' left='0' top='36' width='450px'> (:10)
+[ERROR] Deferred binding failed for 'opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2754 cached/archived units.  Used 2754 / 2754 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151290.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151290.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151290_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151810.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151810.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909151810_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909156519.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909156519.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909156519_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909160318.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909160318.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909160318_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909165332.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909165332.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909165332_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909174158_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909174184_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.VerticalSplitPanel.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method verticalSplitPanelThumb
+         Adding image 'com.google.gwt.user.client.ui.VerticalSplitPanel.Resources.verticalSplitPanelThumb'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909174741_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176005_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176022_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176111_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176253.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176253.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909176253_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909178868.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909178868.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909178868_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179719.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179719.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179719_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179811.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179811.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909179811_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909189459_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909189481_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909190907_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909190924_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909190980.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909190980.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909190980_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909194067.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909194067.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909194067_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909198337.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909198337.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909198337_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909202537.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909202537.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909202537_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909205804_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909205826.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909205826.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909205826_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909206119.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909206119.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909206119_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909210809.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909210809.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909210809_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909215644.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909215644.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909215644_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909227389.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909227389.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909227389_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909230057.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909230057.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909230057_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909234730.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909234730.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909234730_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909239052.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909239052.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909239052_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909241806.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909241806.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909241806_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909247025.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909247025.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909247025_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909250142.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909250142.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909250142_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909258281_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909258304_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909266461_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909266479_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909266539.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909266539.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909266539_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909279630.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909279630.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909279630_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909281172_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909281204_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909281811.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909281811.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909281811_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909283193_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909283211_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909283677.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909283677.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909283677_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909286062.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909286062.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909286062_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909301038_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909301054_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909302316.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909302316.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909302316_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909306042.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909306042.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909306042_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909308316_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909308333_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909309857.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909309857.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909309857_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909312242_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909312262_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909312814.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909312814.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909312814_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909318152.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909318152.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909318152_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909330713_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909330743_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909336627_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909336646_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909336700.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909336700.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909336700_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909338964.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909338964.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909338964_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909340467_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909340482_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909340907.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909340907.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909340907_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352845_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352869.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352869.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352869_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352931.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352931.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909352931_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909355404.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909355404.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909355404_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909358078.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909358078.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909358078_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909373012.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909373012.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909373012_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909374225_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909374241_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909376268.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909376268.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909376268_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909382453.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909382453.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909382453_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909384124_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909384146_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI.SetInactiveUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909385915.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909385915.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.SetInactiveUI_SetInactiveUIUiBinderImpl_designTime1430909385915_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
