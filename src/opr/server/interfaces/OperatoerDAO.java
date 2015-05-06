@@ -6,6 +6,7 @@ import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
 
 public interface OperatoerDAO {
+	
 	OperatoerDTO getOperatoer(int oprId) throws DALException;
 	List<OperatoerDTO> getOperatoerList() throws DALException;
 	void createOperatoer(OperatoerDTO opr) throws DALException;

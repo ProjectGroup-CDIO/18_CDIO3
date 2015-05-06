@@ -11,7 +11,6 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 
-
 public class MainView extends Composite implements Login.Callback{
 
 	private OperatoerDTO activeUser;
@@ -20,10 +19,11 @@ public class MainView extends Composite implements Login.Callback{
 	String UName = "";
 	String PW = "";
 	final ILoginServiceAsync x = GWT.create(ILoginService.class);
-
+	
 
 	public MainView() {
 
+		
 
 		initWidget(this.vPanel);
 		this.login = new Login(this,x);

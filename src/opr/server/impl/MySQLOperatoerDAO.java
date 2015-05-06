@@ -6,13 +6,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 import opr.server.Connector;
+import opr.client.service.ILoginService;
 import opr.server.interfaces.OperatoerDAO;
 import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
 
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
-public class MySQLOperatoerDAO implements OperatoerDAO {
+
+public class MySQLOperatoerDAO extends RemoteServiceServlet implements OperatoerDAO, ILoginService {
 	
+	/**
+	 * 
+	 */
+	public MySQLOperatoerDAO(){
+		try {
+			new Connector();
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	private static final long serialVersionUID = 1L;
+
 	public OperatoerDTO getOperatoer(int oprId) throws DALException {
 		ResultSet rs = Connector.doQuery("SELECT * FROM operatoer WHERE opr_id = " + oprId);
 	    try {
@@ -60,14 +87,23 @@ public class MySQLOperatoerDAO implements OperatoerDAO {
 		 * 
 		 */
 		OperatoerDTO opr;
+		System.out.println("test 5");
 		if((opr = getOperatoer(oprId)).getPassword().equals(pass)){
+			System.out.println("test 6");
 			return opr;
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");
 		}
-	}	
-			
-//			return operatoerDTO;
+	}
+
+	@Override
+	public void deleteOperatoer(OperatoerDTO p) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
 
 		
 		

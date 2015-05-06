@@ -11,9 +11,9 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 public interface ILoginService extends RemoteService{
 	
 	public void createOperatoer(OperatoerDTO p)throws Exception;
-	public void updateLogin(OperatoerDTO p)throws Exception;
+	public void updateOperatoer(OperatoerDTO p)throws Exception;
 	public void deleteOperatoer(OperatoerDTO p)throws Exception;
 	public OperatoerDTO loginVerify(int oprId, String pass)throws Exception;
-	public List<OperatoerDTO> getOperatoerer() throws Exception;
+	public List<OperatoerDTO> getOperatoerList() throws Exception;
 	
 }

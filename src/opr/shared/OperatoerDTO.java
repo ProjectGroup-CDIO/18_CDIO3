@@ -1,5 +1,7 @@
 package opr.shared;
 
+import java.io.Serializable;
+
 /**
  * Operatoer Data Access Objekt
  * 
@@ -7,9 +9,13 @@ package opr.shared;
  * @version 1.2
  */
 
-public class OperatoerDTO
+public class OperatoerDTO implements Serializable
 {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6563826727375700233L;
 	//oprId -5??
 	/** Operatoer-identifikationsnummer (opr_id) i omraadet 1-99999999. Vaelges af brugerne */
 	int oprId;                     
@@ -22,7 +28,11 @@ public class OperatoerDTO
 	/** Operatoer password min. 7 max. 8 karakterer */
 	String password;            
 
-
+	public OperatoerDTO()
+	{
+		
+	}
+	
 	public OperatoerDTO(int oprId, String oprNavn, String ini, String cpr, String password)
 	{
 		this.oprId = oprId;
