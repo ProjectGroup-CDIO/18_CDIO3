@@ -48,9 +48,11 @@ public class Login extends Composite {
 						}
 						@Override
 						public void onSuccess(OperatoerDTO data) {
+							vPanel.add(new Label("test2"));
 							vPanel.add(new Label(data.getOprNavn()));
 							
 							if(data.getOprId() >= 0){
+								vPanel.add(new Label("test3"));
 								c.loginSucces(data);
 								vPanel.add(new Label(data.getOprNavn()));
 							}else{
