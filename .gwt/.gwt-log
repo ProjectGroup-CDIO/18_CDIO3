@@ -9826,3 +9826,453 @@ Rebinding opr.client.ui.Logout_LogoutUiBinderImpl_designTime1430913885959_GenBun
       Compiling...
          Compilation completed in 0,00 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2756 units from cache.
+Compiling...
+   10% complete (ETR: 30 seconds)
+   10% complete (ETR: 30 seconds)
+   20% complete (ETR: 30 seconds)
+   30% complete (ETR: 30 seconds)
+   40% complete (ETR: 26 seconds)
+   50% complete (ETR: 22 seconds)
+   60% complete (ETR: 18 seconds)
+   70% complete (ETR: 13 seconds)
+   80% complete (ETR: 9 seconds)
+   90% complete (ETR: 4 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 46,18 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915857348.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915857348.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915857348_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915859085.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915859085.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915859085_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915898750.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915898750.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915898750_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915907028.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915907028.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915907028_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915910898.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915910898.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915910898_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915913868.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915913868.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915913868_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915919396.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915919396.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915919396_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915922067.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915922067.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915922067_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915944070.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915944070.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915944070_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915952203.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915952203.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915952203_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915958238.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915958238.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915958238_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915963622.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915963622.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915963622_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915970947.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915970947.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915970947_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915977381.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915977381.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915977381_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915988179.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915988179.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430915988179_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095675.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095675.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095675_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI.EditUIUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095914.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095914.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding opr.client.ui.EditUI_EditUIUiBinderImpl_designTime1430916095914_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units

@@ -9,15 +9,16 @@
 	<g:HTMLPanel>
 		<g:AbsolutePanel height="300px">
 			<g:at top="10" left="10">
-				<g:VerticalPanel width="100px" height="100px">
-					<g:Button width="100px" height="31px" text="Logout">Logout</g:Button>
-					<g:Button width="100px">Add</g:Button>
-					<g:Button width="100px">Edit</g:Button>
-					<g:Button width="100px">Inactive</g:Button>
+				<g:VerticalPanel width="100px" height="150px">
+					<g:Button width="100px" ui:field="uiLogout">Logout</g:Button>
+					<g:Button width="100px" ui:field="uiAdd">Add</g:Button>
+					<g:Button width="100px" ui:field="uiEdit">Edit</g:Button>
+					<g:Button width="100px" ui:field="uiList">List</g:Button>
+					<g:Button width="100px" ui:field="uiInactive">Inactive</g:Button>
 				</g:VerticalPanel>
 			</g:at>
 			<g:at top="10" left="338">
-				<g:Button width="72px" height="30px" text="Edit">Edit</g:Button>
+				<g:Button width="72px" height="30px" text="Edit" ui:field="uiEdit_2">Edit</g:Button>
 			</g:at>
 		</g:AbsolutePanel>
 	</g:HTMLPanel>
