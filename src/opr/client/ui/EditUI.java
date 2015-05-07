@@ -8,24 +8,23 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.Label;
 
 public class EditUI extends Composite {
 
 	private static EditUIUiBinder uiBinder = GWT.create(EditUIUiBinder.class);
-	@UiField Button uiList;
-	@UiField Button uiInactive;
-	@UiField Button uiEdit;
-	@UiField Button uiAdd;
-	@UiField Button uiLogout;
-	@UiField Button uiEdit_2;
+	@UiField Button confirmEdit;
+	@UiField TextBox newIDBox;
+	@UiField TextBox newNameBox;
+	@UiField Label newIDBoxLabel;
+	@UiField Label newNameBoxLabel;
 
 	interface EditUIUiBinder extends UiBinder<Widget, EditUI> {
 	}
 
 	public EditUI() {
 		initWidget(uiBinder.createAndBindUi(this));
-	}
-	@UiHandler("uiLogout")
-	void onUiLogoutClick(ClickEvent event) {
 	}
 }
