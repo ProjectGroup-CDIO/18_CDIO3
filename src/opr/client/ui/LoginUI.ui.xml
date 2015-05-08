@@ -5,12 +5,14 @@
 	
 	</ui:style>
 	<g:HTMLPanel>
-		<g:VerticalPanel>
-			<g:Label text="Bruger Navn"/>
-			<g:TextBox/>
-			<g:Label text="Password"/>
-			<g:PasswordTextBox/>
-			<g:PushButton text="Login"/>
+		<g:VerticalPanel ui:field="vPanel">
+			<g:Label text="User login" ui:field="labelLogin"/>
+			<g:TextBox width="170px" ui:field="userId"/>
+			<g:Label text="Password" ui:field="labelPass"/>
+			<g:PasswordTextBox width="170px" ui:field="pass"/>
+			<g:Cell horizontalAlignment="ALIGN_CENTER">
+				<g:Button text="Login" width="130px" ui:field="button"/>
+			</g:Cell>
 		</g:VerticalPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 

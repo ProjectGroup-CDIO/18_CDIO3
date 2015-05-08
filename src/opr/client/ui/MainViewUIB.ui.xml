@@ -7,16 +7,19 @@
 	<g:HTMLPanel>
 		<g:SplitLayoutPanel width="449px" height="300px">
 			<g:north size="100.0">
-				<g:Label text="&#10;&#10;Gruppe 18 Projekt" horizontalAlignment="ALIGN_CENTER"/>
+				<g:Label text="&#10;&#10;Gruppe 18 Projekt" horizontalAlignment="ALIGN_CENTER" height="100px"/>
 			</g:north>
-			<g:west size="100.0">
+			<g:west size="102.0">
 				<g:VerticalPanel>
-					<g:Button text="Edit" width="72px" height="34px"/>
-					<g:Button text="List" width="72px" height="28px"/>
-					<g:Button text="non" width="72px" height="25px"/>
-					<g:Button text="non" width="72px" height="30px"/>
+					<g:Button text="Edit" width="72px" height="30px" ui:field="button" styleName="dialogVPanel"/>
+					<g:Button text="List" width="72px" height="30px" styleName="dialogVPanel"/>
+					<g:Button text="non" width="72px" height="30px" styleName="dialogVPanel"/>
+					<g:Button text="non" width="72px" height="30px" styleName="dialogVPanel"/>
 				</g:VerticalPanel>
 			</g:west>
+			<g:center>
+				<g:VerticalPanel ui:field="contenPannel"/>
+			</g:center>
 		</g:SplitLayoutPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 
