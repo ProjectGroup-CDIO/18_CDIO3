@@ -5,6 +5,10 @@
 	
 	</ui:style>
 	<g:HTMLPanel>
-		<g:DockPanel spacing="2" ui:field="dPanel" borderWidth="1" styleName="gwt-DockPanel"/>
+		<g:SplitLayoutPanel width="449px" height="300px">
+			<g:north size="100.0">
+				<g:Label text="&#10;&#10;Gruppe 18 Projekt" horizontalAlignment="ALIGN_CENTER"/>
+			</g:north>
+		</g:SplitLayoutPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 
