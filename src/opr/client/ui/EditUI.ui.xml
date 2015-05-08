@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="300px">
+			<g:at top="10" left="338">
+				<g:Button width="72px" height="30px" text="Confirm" ui:field="confirmEdit">Edit</g:Button>
+			</g:at>
+			<g:at top="107" left="137">
+				<g:TextBox ui:field="newIDBox"/>
+			</g:at>
+			<g:at top="176" left="137">
+				<g:TextBox width="161px" height="22px" ui:field="newNameBox"/>
+			</g:at>
+			<g:at top="83" left="139">
+				<g:Label text="Enter a new ID:" ui:field="newIDBoxLabel"/>
+			</g:at>
+			<g:at top="152" left="137">
+				<g:Label text="Enter a new name:" ui:field="newNameBoxLabel"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

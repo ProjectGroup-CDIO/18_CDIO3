@@ -36,8 +36,13 @@ h1 {
 .gwt-DockPanel {
 	color: darkred;
 }
+<<<<<<< HEAD
 .gwt-Label {
 	font-size: larger;
 	text-indent: 5px;
 	background-color: White;
+=======
+test {
+	width:100px;
+>>>>>>> branch 'master' of https://github.com/ProjectGroup-CDIO/18_CDIO3.git
 }
