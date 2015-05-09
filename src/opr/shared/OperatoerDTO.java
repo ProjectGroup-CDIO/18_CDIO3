@@ -27,7 +27,7 @@ public class OperatoerDTO implements Serializable
 	/** Operatoer password min. 7 max. 8 karakterer */
 	String password; 
 	/** Operatoer status: aktiv/inaktiv */
-	boolean active;
+	int active;
 
 	public OperatoerDTO()
 	{
@@ -41,6 +41,7 @@ public class OperatoerDTO implements Serializable
 		this.ini = ini;
 		this.cpr = cpr;
 		this.password = password;
+		this.active = 1;
 	}
 	
     public OperatoerDTO(OperatoerDTO opr)
@@ -50,6 +51,7 @@ public class OperatoerDTO implements Serializable
     	this.ini = opr.getIni();
     	this.cpr = opr.getCpr();
     	this.password = opr.getPassword();
+    	this.active = 1;
     }
     
     public int getOprId() { return oprId; }
@@ -63,12 +65,10 @@ public class OperatoerDTO implements Serializable
 	public String getPassword() { return password; }
 	public void setPassword(String password) { this.password = password; }
 	public String toString() { return oprId + "\t" + oprNavn + "\t" + ini + "\t" + cpr + "\t" + password; }
-
-	public boolean isActive() {
+	public int isActive() {
 		return active;
 	}
-
-	public void setActive(boolean active) {
+	public void setActive(int active) {
 		this.active = active;
 	}
 	

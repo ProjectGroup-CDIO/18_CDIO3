@@ -31,14 +31,14 @@ public class AddView extends Composite {
 
 	public AddView(final MainView mainView) throws Exception{
 		this.initWidget(ft);
-		
+
 		ft.setWidget(0,0,lblID);
 		ft.setWidget(0,1,lblNavn);
 		ft.setWidget(0,2,lblIni);
 		ft.setWidget(0,3,lblCPR);
 		ft.setWidget(0,4,lblPass);
 		ft.setWidget(0,5,lblActive);
-		
+
 		//Here the ID is set to the next available ID made from list of opr
 		//Txt box is disabled, so no editing is availble
 		txtBoxID.setEnabled(false);
@@ -52,10 +52,10 @@ public class AddView extends Composite {
 			@Override
 			public void onSuccess(List<OperatoerDTO> result) {
 				txtBoxID.setText(""+(result.size()+1));
-				
-				
+
+
 			}
-			
+
 		});
 
 		ft.setWidget(1,0,txtBoxID);
@@ -66,37 +66,68 @@ public class AddView extends Composite {
 		txtBoxActive.setText("True");
 		txtBoxActive.setEnabled(false);
 		ft.setWidget(1,5,txtBoxActive);
-		
+
 		Button btnADD = new Button("ADD", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
-			
+
 				try {
-					mainView.getService().createOperatoer(new OperatoerDTO(Integer.parseInt(txtBoxID.getText()), 
-							txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), new AsyncCallback<Void>() {
+					if(boxCheck()){
+						mainView.getService().createOperatoer(new OperatoerDTO(Integer.parseInt(txtBoxID.getText()), 
+								txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), new AsyncCallback<Void>() {
 
-						@Override
-						public void onFailure(Throwable caught) {
-							Window.alert("Failed to acces database:  n" + caught.getMessage());		
-							
-						}
+							@Override
+							public void onFailure(Throwable caught) {
+								Window.alert("Failed to acces database:  n" + caught.getMessage());		
 
-						@Override
-						public void onSuccess(Void result) {
-							Window.alert("Succes, the user has been added to the data base");
-							
-						}
-					});
-					
+							}
+
+							@Override
+							public void onSuccess(Void result) {
+								Window.alert("Succes, the user has been added to the data base");
+
+							}
+						});
+					}else{
+						Window.alert("YOU WROTE SOMETHING WRONG IN A BOX! - try again!");
+					}
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
+
 					e.printStackTrace();
 				}
 			}
-		
+
 		});
 		ft.setWidget(2, 5, btnADD);
-		
+
+	}
+
+	protected boolean boxCheck() {
+		if(txtBoxNavn.getText().length() >= 2 && txtBoxNavn.getText().length() <= 20){
+
+			if(txtBoxIni.getText().length()< 4 && txtBoxIni.getText().length()> 1){
+				//Should prolly check if the input CPR# only contains numbers maybe with a regex?
+				if(txtBoxCPR.getText().length() == 10 &&txtBoxCPR.getText().matches("[0-9]+")){
+					if(txtBoxPass.getText().length() == 7 || txtBoxPass.getText().length() == 8 ){
+						return true;
+
+					}else{
+						Window.alert("Your password must be either 7 or 8 characters long.");
+					}
+
+				}else{
+					Window.alert("Your CPR nr was not correct, must be 10 numbers long");
+				}
+
+			}else{
+				Window.alert("your initials can only be 3 or 2 characters");
+			}
+
+		}else{
+			Window.alert("your name was not over 2 chars long or below 20 chars");
+		}
+
+		return false;
 	}
 
 }
