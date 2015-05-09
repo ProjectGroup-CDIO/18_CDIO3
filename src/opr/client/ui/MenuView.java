@@ -1,6 +1,6 @@
 package opr.client.ui;
 
-import opr.client.MainView;
+import opr.client.ui.MainView;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
