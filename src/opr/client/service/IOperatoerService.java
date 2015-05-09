@@ -15,5 +15,6 @@ public interface IOperatoerService extends RemoteService{
 	public void deleteOperatoer(OperatoerDTO p)throws Exception;
 	public OperatoerDTO loginVerify(int oprId, String pass)throws Exception;
 	public List<OperatoerDTO> getOperatoerList() throws Exception;
+	public OperatoerDTO getOperatoer(int oprID) throws Exception;
 	
 }

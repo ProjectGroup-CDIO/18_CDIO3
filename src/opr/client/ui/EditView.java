@@ -1,23 +1,28 @@
 package opr.client.ui;
 
+import opr.shared.OperatoerDTO;
+
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlexTable;
+import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
 
 public class EditView extends Composite {
 	private FlexTable ft = new FlexTable();
-	Label lblCPR = new Label ("CPR");
-	TextBox txtBoxCPR = new TextBox();
-	Label lblNavn = new Label ("Navn");
-	TextBox txtBoxNavn = new TextBox();
-	Label lblPassword = new Label ("Password");
-	TextBox txtBoxPassword = new TextBox();
+	private Label lblCPR = new Label ("CPR");
+	private TextBox txtBoxCPR = new TextBox();
+	private Label lblNavn = new Label ("Navn");
+	private TextBox txtBoxNavn = new TextBox();
+	private Label lblPassword = new Label ("Password");
+	private TextBox txtBoxPassword = new TextBox();
+	private OperatoerDTO opr;
 	
-	public EditView(MainView mainView) throws Exception{
+	public EditView(final MainView main, final int oprID) throws Exception{
 		this.initWidget(ft);
 		
 		ft.setWidget(0, 0, lblCPR);
@@ -31,10 +36,35 @@ public class EditView extends Composite {
 		ft.setWidget(1, 1, txtBoxNavn);
 		ft.setWidget(1, 2, txtBoxPassword);
 		
+		//ikke testet
+		opr = new OperatoerDTO(oprID, txtBoxNavn.getText(), "ini??",
+				txtBoxCPR.getText(), txtBoxPassword.getText());
+		
 		Button btnEdit = new Button("Edit", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
-			
+				
+				//ikke testet
+				try {
+					main.getService().updateOperatoer(opr, new AsyncCallback<Void>() {
+
+						@Override
+						public void onFailure(Throwable caught) {
+							Window.alert("Error: "+caught.getMessage());
+							
+						}
+
+						@Override
+						public void onSuccess(Void result) {
+							Window.alert("Successfully updated operator");
+						}
+						
+					});
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
 			try{
 				
 			} catch (Exception e){

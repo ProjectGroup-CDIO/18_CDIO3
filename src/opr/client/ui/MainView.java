@@ -25,7 +25,6 @@ public class MainView extends Composite implements Login.Callback {
 	
 	public MainView() throws Exception {
 		initWidget(ft);
-		edit = new EditView(this);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
 		list = new ListView(this);
@@ -34,16 +33,19 @@ public class MainView extends Composite implements Login.Callback {
 		ft.setWidget(0, 1, login);
 	}
 	
-	public void openEditView(int oprId) {
+	//ikke testet
+	public void openEditView(int oprId) throws Exception {
 		content.clear();
-		content.add(edit);
+		content.add(new EditView(this, oprId));
 	}
+	
 	public void openAddView() throws Exception{
 		content.clear();
 		add = new AddView(this);
 		content.add(add);
 		ft.setWidget(0, 1, content);
 	}
+	
 	public void openLoginView() {
 		
 	}
