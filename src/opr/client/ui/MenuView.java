@@ -1,7 +1,5 @@
 package opr.client.ui;
 
-import opr.client.MainView;
-
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.Button;
@@ -16,13 +14,27 @@ public class MenuView extends Composite {
 	Label testLBL = new Label("TEST ONE -");
 	Label testLBL2 = new Label("TEST TWO -");
 
-	public MenuView(MainView mainView){
+	public MenuView(final MainView mainView){
 		this.initWidget(vPanel);
 		
 		vPanel.add(testLBL);
 		vPanel.add(testLBL2);
 		vPanel.setBorderWidth(1);
 		
+	
+		Button addBtn = new Button("ADD", new ClickHandler(){
+			@Override
+			public void onClick(ClickEvent event) {
+			
+				try {
+					mainView.openAddView();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		
+		});
 		Button editBtn = new Button("EDIT", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
@@ -31,13 +43,6 @@ public class MenuView extends Composite {
 		
 		});
 		Button removeBtn  = new Button("REMOVE", new ClickHandler(){
-			@Override
-			public void onClick(ClickEvent event) {
-			
-			}
-		
-		});
-		Button addBtn = new Button("ADD", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
 			
