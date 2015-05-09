@@ -3,6 +3,7 @@ package opr.client;
 
 import opr.client.service.ILoginService;
 import opr.client.service.ILoginServiceAsync;
+import opr.client.ui.Login;
 import opr.shared.OperatoerDTO;
 
 import com.google.gwt.core.client.GWT;
@@ -23,8 +24,6 @@ public class MainView extends Composite implements Login.Callback{
 
 	public MainView() {
 
-		
-
 		initWidget(this.vPanel);
 		this.login = new Login(this,x);
 		Label lblOne = new Label("Please write in your login info. ");
@@ -43,7 +42,6 @@ public class MainView extends Composite implements Login.Callback{
 	public void loginSucces(OperatoerDTO activeUser) {
 		vPanel.clear();
 		this.activeUser = activeUser;
-		
 	}
 
 }

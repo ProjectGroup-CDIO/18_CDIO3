@@ -1,4 +1,4 @@
-package opr.client;
+package opr.client.ui;
 
 import opr.client.service.ILoginServiceAsync;
 import opr.shared.OperatoerDTO;
