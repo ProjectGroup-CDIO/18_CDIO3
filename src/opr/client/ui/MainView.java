@@ -20,21 +20,30 @@ public class MainView extends Composite implements Login.Callback {
 	private ListView list;
 	private MenuView menu;
 	private EditView edit;
+	private AddView add;
 	private final IOperatoerServiceAsync service = GWT.create(IOperatoerService.class);
 	
 	public MainView() throws Exception {
 		initWidget(ft);
+		edit = new EditView(this);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
 		list = new ListView(this);
 		ft.setWidget(0, 1, list);
+		ft.setBorderWidth(1);
+		ft.setWidget(0, 1, login);
 	}
 	
 	public void openEditView(int oprId) {
 		content.clear();
 		content.add(edit);
 	}
-	
+	public void openAddView() throws Exception{
+		content.clear();
+		add = new AddView(this);
+		content.add(add);
+		ft.setWidget(0, 1, content);
+	}
 	public void openLoginView() {
 		
 	}
@@ -48,6 +57,8 @@ public class MainView extends Composite implements Login.Callback {
 	public void loginSucces(OperatoerDTO activeUser) {
 		ft.clear();
 		this.activeUser = activeUser;
+		menu = new MenuView(this);
+		ft.setWidget(0,0,menu);
 		
 	}
 
