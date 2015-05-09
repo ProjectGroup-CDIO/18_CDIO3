@@ -76,7 +76,7 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		return list;
 	}
 	
-	public OperatoerDTO loginVerify(int oprId, String pass)throws DALException{
+	public OperatoerDTO loginVerify(int oprId, String pass) throws DALException{
 		/*
 		 *Here check if the partly filled oprDTO matches uName and pass with one in the datebase.
 		 * we then return the found in the database, on failure we return the recieved oprDTO
@@ -93,7 +93,7 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	}
 
 	@Override
-	public void deleteOperatoer(OperatoerDTO opr) throws Exception {
+	public void deleteOperatoer(OperatoerDTO opr) throws DALException {
 		Connector.doUpdate(
 				"UPDATE operatoer SET aktiv = 0 WHERE opr_id = " +
 				opr.getOprId()

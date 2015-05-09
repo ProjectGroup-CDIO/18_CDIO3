@@ -15,12 +15,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class MainView extends Composite implements Login.Callback{
 
-	private OperatoerDTO activeUser;
-	private VerticalPanel vPanel = new VerticalPanel();
-	private Login login;
-	String UName = "";
-	String PW = "";
-	final ILoginServiceAsync x = GWT.create(ILoginService.class);
+
 	
 
 	public MainView() {

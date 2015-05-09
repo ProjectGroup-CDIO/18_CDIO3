@@ -24,10 +24,11 @@ public class Login extends Composite {
 	public interface Callback{
 		public void loginSucces(OperatoerDTO activeUser);
 		public void loginFailiure();
+		public IOperatoerServiceAsync getService();
 	}
 
 
-	public Login(final Callback c, final IOperatoerServiceAsync x){
+	public Login(final Callback c){
 		//this.c = c;
 		this.initWidget(vPanel);
 		vPanel.add(lblOne);
@@ -41,7 +42,7 @@ public class Login extends Composite {
 				try {
 					vPanel.add(new Label("test1"));
 					
-					x.loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
+					c.getService().loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
 
 						@Override
 						public void onFailure(Throwable caught) {
