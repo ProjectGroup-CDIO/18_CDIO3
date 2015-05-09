@@ -8,7 +8,7 @@ import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 @RemoteServiceRelativePath("loginservice")
-public interface ILoginService extends RemoteService{
+public interface IOperatoerService extends RemoteService{
 	
 	public void createOperatoer(OperatoerDTO p)throws Exception;
 	public void updateOperatoer(OperatoerDTO p)throws Exception;

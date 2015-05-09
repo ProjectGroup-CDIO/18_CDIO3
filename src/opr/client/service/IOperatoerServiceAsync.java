@@ -9,7 +9,7 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 
 
 
-public interface ILoginServiceAsync {
+public interface IOperatoerServiceAsync {
 	
 	void loginVerify(int oprId, String pass, AsyncCallback<OperatoerDTO> callback);
 	void updateOperatoer(OperatoerDTO p, AsyncCallback<Void> callback)throws Exception;

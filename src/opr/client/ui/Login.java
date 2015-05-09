@@ -1,6 +1,6 @@
-package opr.client;
+package opr.client.ui;
 
-import opr.client.service.ILoginServiceAsync;
+import opr.client.service.IOperatoerServiceAsync;
 import opr.shared.OperatoerDTO;
 
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -26,7 +26,7 @@ public class Login extends Composite {
 	}
 
 
-	public Login(final Callback c, final ILoginServiceAsync x){
+	public Login(final Callback c, final IOperatoerServiceAsync x){
 		//this.c = c;
 		this.initWidget(vPanel);
 		vPanel.add(lblOne);

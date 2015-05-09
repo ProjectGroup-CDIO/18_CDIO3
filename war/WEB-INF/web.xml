@@ -8,7 +8,7 @@
   <!-- Servlets -->
  <servlet>
       <servlet-name>operatoerServlet</servlet-name>
-    <servlet-class>opr.server.impl.MySQLOperatoerDAO</servlet-class>
+    <servlet-class>opr.server.impl.IOperatoerServiceImpl</servlet-class>
   </servlet> 
   <servlet-mapping>
     <servlet-name>operatoerServlet</servlet-name>

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import opr.server.Connector;
-import opr.client.service.ILoginService;
+import opr.client.service.IOperatoerService;
 import opr.server.interfaces.OperatoerDAO;
 import opr.shared.DALException;
 import opr.shared.OperatoerDTO;
@@ -14,7 +14,7 @@ import opr.shared.OperatoerDTO;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 
-public class MySQLOperatoerDAO extends RemoteServiceServlet implements OperatoerDAO, ILoginService {
+public class MySQLOperatoerDAO extends RemoteServiceServlet implements OperatoerDAO, IOperatoerService {
 	
 	/**
 	 * 
@@ -93,9 +93,11 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	}
 
 	@Override
-	public void deleteOperatoer(OperatoerDTO p) throws Exception {
-		// TODO Auto-generated method stub
-		
+	public void deleteOperatoer(OperatoerDTO opr) throws Exception {
+		Connector.doUpdate(
+				"UPDATE operatoer SET aktiv = 0 WHERE opr_id = " +
+				opr.getOprId()
+		);
 	}
 
 
