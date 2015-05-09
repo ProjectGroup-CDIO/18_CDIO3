@@ -3,11 +3,12 @@
 
 /** Example rules used by the template application (remove for your app) */
 h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #777777;
-  margin: 40px 0px 70px;
-  text-align: center;
+	color: Black;
+	margin: 40px 0px 70px;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	background-color: tan;
 }
 
 .sendButton {
@@ -35,6 +36,13 @@ h1 {
 .gwt-DockPanel {
 	color: darkred;
 }
+<<<<<<< HEAD
+.gwt-Label {
+	font-size: larger;
+	text-indent: 5px;
+	background-color: White;
+=======
 test {
 	width:100px;
+>>>>>>> branch 'master' of https://github.com/ProjectGroup-CDIO/18_CDIO3.git
 }
