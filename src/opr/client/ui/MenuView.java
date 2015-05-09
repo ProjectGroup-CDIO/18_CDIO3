@@ -12,7 +12,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class MenuView extends Composite {
 	private VerticalPanel vPanel = new VerticalPanel();
-	private HorizontalPanel hPanel = new HorizontalPanel();
+
 
 	public MenuView(final MainView mainView){
 		this.initWidget(vPanel);
@@ -32,20 +32,6 @@ public class MenuView extends Composite {
 			}
 		
 		});
-		Button editBtn = new Button("EDIT", new ClickHandler(){
-			@Override
-			public void onClick(ClickEvent event) {
-			
-			}
-		
-		});
-		Button removeBtn  = new Button("REMOVE", new ClickHandler(){
-			@Override
-			public void onClick(ClickEvent event) {
-			
-			}
-		
-		});
 		Button listBtn = new Button("LIST", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
@@ -54,12 +40,9 @@ public class MenuView extends Composite {
 		
 		});
 		
-		editBtn.setPixelSize(100, 30);
-		removeBtn.setPixelSize(100, 30);
+		
 		addBtn.setPixelSize(100, 30);
 		listBtn.setPixelSize(100, 30);
-		vPanel.add(editBtn);
-		vPanel.add(removeBtn);
 		vPanel.add(addBtn);
 		vPanel.add(listBtn);	
 		
