@@ -14,7 +14,13 @@ public class _8_CDIO3 implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {	
-		MainView mainView = new MainView();
-		RootPanel.get().add(mainView);
+		MainView mainView;
+		try {
+			mainView = new MainView();
+			RootPanel.get().add(mainView);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

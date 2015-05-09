@@ -23,12 +23,13 @@ public class MainView extends Composite implements Login.Callback {
 	private AddView add;
 	private final IOperatoerServiceAsync service = GWT.create(IOperatoerService.class);
 	
-	public MainView() {
+	public MainView() throws Exception {
 		initWidget(ft);
-
+		edit = new EditView(this);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
 		ft.setBorderWidth(1);
+		ft.setWidget(0, 1, edit);
 	}
 	
 	public void openEditView() {
