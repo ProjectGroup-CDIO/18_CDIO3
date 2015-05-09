@@ -39,8 +39,6 @@ public class Login extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				try {
-					vPanel.add(new Label("test1"));
-					
 					x.loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
 
 						@Override
@@ -53,7 +51,7 @@ public class Login extends Composite {
 						public void onSuccess(OperatoerDTO data) {
 							vPanel.add(new Label("test2"));
 							vPanel.add(new Label(data.getOprNavn()));
-							
+
 							if(data.getOprId() >= 0){
 								vPanel.add(new Label("test3"));
 								c.loginSucces(data);
