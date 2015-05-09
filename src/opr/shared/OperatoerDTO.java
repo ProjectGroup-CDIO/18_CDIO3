@@ -16,7 +16,6 @@ public class OperatoerDTO implements Serializable
 	 * 
 	 */
 	private static final long serialVersionUID = -6563826727375700233L;
-	//oprId -5??
 	/** Operatoer-identifikationsnummer (opr_id) i omraadet 1-99999999. Vaelges af brugerne */
 	int oprId;                     
 	/** Operatoernavn (opr_navn) min. 2 max. 20 karakterer */
