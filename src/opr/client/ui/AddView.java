@@ -22,19 +22,22 @@ public class AddView extends Composite {
 	TextBox txtBoxNavn = new TextBox();
 	Label lblIni = new Label("Initials");
 	TextBox txtBoxIni = new TextBox();
+	Label lblCPR = new Label("CPR#");
+	TextBox txtBoxCPR = new TextBox();
 	Label lblPass = new Label("Password");
 	TextBox txtBoxPass = new TextBox();
 	Label lblActive = new Label("ActiveStatus - set to true");
 	TextBox txtBoxActive = new TextBox();
 
-	public AddView(MainView mainView) throws Exception{
+	public AddView(final MainView mainView) throws Exception{
 		this.initWidget(ft);
 		
 		ft.setWidget(0,0,lblID);
 		ft.setWidget(0,1,lblNavn);
 		ft.setWidget(0,2,lblIni);
-		ft.setWidget(0,3,lblPass);
-		ft.setWidget(0,4,lblActive);
+		ft.setWidget(0,3,lblCPR);
+		ft.setWidget(0,4,lblPass);
+		ft.setWidget(0,5,lblActive);
 		
 		//Here the ID is set to the next available ID made from list of opr
 		//Txt box is disabled, so no editing is availble
@@ -58,16 +61,32 @@ public class AddView extends Composite {
 		ft.setWidget(1,0,txtBoxID);
 		ft.setWidget(1,1,txtBoxNavn);
 		ft.setWidget(1,2,txtBoxIni);
-		ft.setWidget(1,3,txtBoxPass);
+		ft.setWidget(1,3,txtBoxCPR);
+		ft.setWidget(1,4,txtBoxPass);
 		txtBoxActive.setText("True");
 		txtBoxActive.setEnabled(false);
-		ft.setWidget(1,4,txtBoxActive);
+		ft.setWidget(1,5,txtBoxActive);
 		
 		Button btnADD = new Button("ADD", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
 			
 				try {
+					mainView.getService().createOperatoer(new OperatoerDTO(Integer.parseInt(txtBoxID.getText()), 
+							txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), new AsyncCallback<Void>() {
+
+						@Override
+						public void onFailure(Throwable caught) {
+							Window.alert("Failed to acces database:  n" + caught.getMessage());		
+							
+						}
+
+						@Override
+						public void onSuccess(Void result) {
+							Window.alert("Succes, the user has been added to the data base");
+							
+						}
+					});
 					
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
@@ -76,7 +95,7 @@ public class AddView extends Composite {
 			}
 		
 		});
-		ft.setWidget(2, 4, btnADD);
+		ft.setWidget(2, 5, btnADD);
 		
 	}
 

@@ -13,14 +13,9 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 public class MenuView extends Composite {
 	private VerticalPanel vPanel = new VerticalPanel();
 	private HorizontalPanel hPanel = new HorizontalPanel();
-	Label testLBL = new Label("TEST ONE -");
-	Label testLBL2 = new Label("TEST TWO -");
 
 	public MenuView(final MainView mainView){
 		this.initWidget(vPanel);
-		
-		vPanel.add(testLBL);
-		vPanel.add(testLBL2);
 		vPanel.setBorderWidth(1);
 		
 	
