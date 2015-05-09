@@ -24,6 +24,7 @@ public class MainView extends Composite implements Login.Callback {
 	
 	public MainView() {
 		initWidget(ft);
+		
 	}
 	
 	public void openEditView() {
