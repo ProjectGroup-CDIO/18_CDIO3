@@ -30,7 +30,7 @@ public class MainView extends Composite implements Login.Callback {
 		ft.setWidget(0, 1, list);
 	}
 	
-	public void openEditView() {
+	public void openEditView(int oprId) {
 		content.clear();
 		content.add(edit);
 	}
