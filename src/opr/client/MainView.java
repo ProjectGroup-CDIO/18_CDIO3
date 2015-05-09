@@ -4,6 +4,7 @@ package opr.client;
 import opr.client.service.ILoginService;
 import opr.client.service.ILoginServiceAsync;
 import opr.client.ui.Login;
+import opr.client.ui.MenuView;
 import opr.shared.OperatoerDTO;
 
 import com.google.gwt.core.client.GWT;
@@ -29,9 +30,7 @@ public class MainView extends Composite implements Login.Callback{
 		Label lblOne = new Label("Please write in your login info. ");
 		this.vPanel.add(lblOne);
 		this.vPanel.add(login);
-
 		
-
 	}
 
 	public void loginFailiure(){
@@ -42,6 +41,9 @@ public class MainView extends Composite implements Login.Callback{
 	public void loginSucces(OperatoerDTO activeUser) {
 		vPanel.clear();
 		this.activeUser = activeUser;
+		MenuView menu = new MenuView(this);
+		vPanel.add(menu);
+		 
 	}
 
 }
