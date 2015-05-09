@@ -29,7 +29,7 @@ public class MainView extends Composite implements Login.Callback {
 		login = new Login(this);
 		ft.setWidget(0,0,login);
 		ft.setBorderWidth(1);
-		ft.setWidget(0, 1, edit);
+		ft.setWidget(0, 1, login);
 	}
 	
 	public void openEditView() {

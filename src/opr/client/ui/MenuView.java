@@ -35,7 +35,12 @@ public class MenuView extends Composite {
 		Button editBtn = new Button("EDIT", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
-				
+				try{
+					mainView.openEditView();
+				}catch (Exception e){
+					e.printStackTrace();
+					
+				}
 			}
 		
 		});
