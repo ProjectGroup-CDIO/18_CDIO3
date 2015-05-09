@@ -24,14 +24,21 @@ public class MainView extends Composite implements Login.Callback {
 	
 	public MainView() {
 		initWidget(ft);
-		
+
+		login = new Login(this);
+		ft.setWidget(0,0,login);
 	}
 	
 	public void openEditView() {
 		content.clear();
 		content.add(edit);
 	}
-
+	
+	public void openLoginView() {
+		
+	}
+	
+	@Override
 	public IOperatoerServiceAsync getService() {
 		return service;
 	}
