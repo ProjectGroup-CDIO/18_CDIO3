@@ -32,6 +32,7 @@ public class MenuView extends Composite {
 			}
 		
 		});
+
 		Button listBtn = new Button("LIST", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
