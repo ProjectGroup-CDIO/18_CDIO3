@@ -1,18 +1,18 @@
-package opr.client.ui;
+package opr.client.uiBinder;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 
-public class Logout extends Composite {
+public class LoginUI extends Composite {
 
-	private static LogoutUiBinder uiBinder = GWT.create(LogoutUiBinder.class);
+	private static LoginUIUiBinder uiBinder = GWT.create(LoginUIUiBinder.class);
 
-	interface LogoutUiBinder extends UiBinder<Widget, Logout> {
+	interface LoginUIUiBinder extends UiBinder<Widget, LoginUI> {
 	}
 
-	public Logout() {
+	public LoginUI() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
 

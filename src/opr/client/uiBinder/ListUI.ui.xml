@@ -8,6 +8,7 @@
 	</ui:style>
 	<g:HTMLPanel>
 		<g:ListBox visibleItemCount="10" width="155px" height="195px" ui:field="listBox"/>
+		<g:VerticalPanel ui:field="vPanel"/>
 		
 	</g:HTMLPanel>
 </ui:UiBinder> 
