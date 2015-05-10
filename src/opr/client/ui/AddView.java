@@ -26,7 +26,7 @@ public class AddView extends Composite {
 	TextBox txtBoxCPR = new TextBox();
 	Label lblPass = new Label("Password");
 	TextBox txtBoxPass = new TextBox();
-	Label lblActive = new Label("ActiveStatus - set to true");
+	Label lblActive = new Label("ActiveStatus - set to 1 for opr or 2 for admin");
 	TextBox txtBoxActive = new TextBox();
 
 	public AddView(final MainView mainView) throws Exception{
@@ -63,8 +63,7 @@ public class AddView extends Composite {
 		ft.setWidget(1,2,txtBoxIni);
 		ft.setWidget(1,3,txtBoxCPR);
 		ft.setWidget(1,4,txtBoxPass);
-		txtBoxActive.setText("True");
-		txtBoxActive.setEnabled(false);
+		txtBoxActive.setText("1");
 		ft.setWidget(1,5,txtBoxActive);
 
 		Button btnADD = new Button("ADD", new ClickHandler(){
@@ -74,7 +73,8 @@ public class AddView extends Composite {
 				try {
 					if(boxCheck()){
 						mainView.getService().createOperatoer(new OperatoerDTO(Integer.parseInt(txtBoxID.getText()), 
-								txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), new AsyncCallback<Void>() {
+								txtBoxNavn.getText(), txtBoxIni.getText(), 
+								txtBoxCPR.getText(), txtBoxPass.getText(),Integer.parseInt(txtBoxActive.getText())), new AsyncCallback<Void>() {
 
 							@Override
 							public void onFailure(Throwable caught) {

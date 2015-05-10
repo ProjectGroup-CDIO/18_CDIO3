@@ -50,7 +50,8 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 			Connector.doUpdate(
 				"INSERT INTO operatoer(opr_id, opr_navn, ini, cpr, password) VALUES " +
 				"(" + opr.getOprId() + ", '" + opr.getOprNavn() + "', '" + opr.getIni() + "', '" + 
-				opr.getCpr() + "', '" + opr.getPassword() + "')"
+				opr.getCpr() + "', '" + opr.getPassword() + "', "+opr.getActive()+")"
+
 			);
 	}
 	
@@ -84,8 +85,12 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		 * 
 		 */
 		OperatoerDTO opr;
-		if((opr = getOperatoer(oprId)).getPassword().equals(pass) && opr.getActive() > 0){
+		if((opr = getOperatoer(oprId)).getPassword().equals(pass)){
+			if(opr.getActive() > 0){
 			return opr;
+			}else{
+				throw new DALException("Bruger ID er sat til at være inaktiv - kontak ADMIN");
+			}
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");
 		}
