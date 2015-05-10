@@ -19,9 +19,7 @@ public class MainView extends Composite implements Login.Callback {
 	private FlexCellFormatter ftFormat = ft.getFlexCellFormatter();
 	private VerticalPanel content = new VerticalPanel();
 	private Login login;
-//	private ListView list;
 	private MenuView menu;
-//	private EditView edit;
 	private AddView add;
 	private final IOperatoerServiceAsync service = GWT.create(IOperatoerService.class);
 	
@@ -29,14 +27,9 @@ public class MainView extends Composite implements Login.Callback {
 		initWidget(ft);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
-		
-//		list = new ListView(this);
-//		ft.setWidget(0, 1, list);
-		ft.setBorderWidth(1);
 		ft.setWidget(0, 1, login);
 	}
 	
-	//ikke testet
 	public void openEditView(int oprId) throws Exception {
 		content.clear();
 		content.add(new EditView(this, oprId));
@@ -51,7 +44,10 @@ public class MainView extends Composite implements Login.Callback {
 	}
 	
 	public void openLoginView() {
-		
+		ft.clear();
+		ft.setWidget(0, 0, login);
+		activeUser = null;
+		login.clear();
 	}
 	
 	public void openListView() throws Exception {
@@ -77,8 +73,7 @@ public class MainView extends Composite implements Login.Callback {
 
 	@Override
 	public void loginFailiure() {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 	}
 	
 	

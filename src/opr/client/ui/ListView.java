@@ -52,7 +52,7 @@ public class ListView extends Composite {
 				l = result;
 				int j = 1;
 				for(int i = 0; i < l.size(); i++) {
-					if (l.get(i).getActive() == 1) {
+					if (l.get(i).getActive() > 0) {
 						ft.setText(j, 0,
 								String.valueOf(l.get(i).getOprId()));
 						ft.setText(j, 1, l.get(i).getOprNavn());

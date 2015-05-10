@@ -42,11 +42,22 @@ public class MenuView extends Composite {
 		
 		});
 		
+		Button logoutBtn = new Button("LOGOUT", new ClickHandler() {
+
+			@Override
+			public void onClick(ClickEvent event) {
+				main.openLoginView();
+			}
+			
+		});
+		
 		
 		addBtn.setPixelSize(100, 30);
 		listBtn.setPixelSize(100, 30);
+		logoutBtn.setPixelSize(100, 30);
 		vPanel.add(addBtn);
-		vPanel.add(listBtn);	
+		vPanel.add(listBtn);
+		vPanel.add(logoutBtn);
 		
 		
 		
