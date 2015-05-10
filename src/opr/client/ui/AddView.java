@@ -76,9 +76,10 @@ public class AddView extends Composite {
 								txtBoxNavn.getText(), txtBoxIni.getText(), 
 								txtBoxCPR.getText(), txtBoxPass.getText(),Integer.parseInt(txtBoxActive.getText())), new AsyncCallback<Void>() {
 
+
 							@Override
 							public void onFailure(Throwable caught) {
-								Window.alert("Failed to acces database:  n" + caught.getMessage());		
+								Window.alert("Failed to acces database: " + caught.getMessage());		
 
 							}
 

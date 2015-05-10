@@ -40,7 +40,8 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		ResultSet rs = Connector.doQuery("SELECT * FROM operatoer WHERE opr_id = " + oprId);
 	    try {
 	    	if (!rs.first()) throw new DALException("Operatoeren " + oprId + " findes ikke");
-	    	return new OperatoerDTO (rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"), rs.getString("cpr"), rs.getString("password"));
+	    	return new OperatoerDTO (rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"),
+	    			rs.getString("cpr"), rs.getString("password"), rs.getInt("aktiv"));
 	    }
 	    catch (SQLException e) {throw new DALException(e.getMessage()); }
 		
@@ -48,10 +49,9 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	
 	public void createOperatoer(OperatoerDTO opr) throws DALException {		
 			Connector.doUpdate(
-				"INSERT INTO operatoer(opr_id, opr_navn, ini, cpr, password) VALUES " +
+				"INSERT INTO operatoer(opr_id, opr_navn, ini, cpr, password, aktiv) VALUES " +
 				"(" + opr.getOprId() + ", '" + opr.getOprNavn() + "', '" + opr.getIni() + "', '" + 
 				opr.getCpr() + "', '" + opr.getPassword() + "', "+opr.getActive()+")"
-
 			);
 	}
 	
