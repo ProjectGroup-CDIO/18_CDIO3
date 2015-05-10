@@ -54,8 +54,6 @@ public class ListView extends Composite {
 				l = result;
 				int j = 1;
 				for(int i = 0; i < l.size(); i++) {
-//					System.out.println(""+l.get(i).getActive()+":"+l.get(i).getOprId());
-//					Window.alert(""+l.get(i).getActive()+":"+l.get(i).getOprId());
 					if (l.get(i).getActive() == 1) {
 						ft.setText(j, 0,
 								String.valueOf(l.get(i).getOprId()));

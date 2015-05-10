@@ -9,6 +9,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HasHorizontalAlignment;
 import com.google.gwt.user.client.ui.FlexTable.FlexCellFormatter;
+import com.google.gwt.user.client.ui.HasVerticalAlignment;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class MainView extends Composite implements Login.Callback {
@@ -70,6 +71,7 @@ public class MainView extends Composite implements Login.Callback {
 		this.activeUser = activeUser;
 		menu = new MenuView(this);
 		ft.setWidget(0,0,menu);
+		ftFormat.setVerticalAlignment(0,0,HasVerticalAlignment.ALIGN_TOP);
 		
 	}
 

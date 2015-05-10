@@ -84,7 +84,7 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		 * 
 		 */
 		OperatoerDTO opr;
-		if((opr = getOperatoer(oprId)).getPassword().equals(pass)){
+		if((opr = getOperatoer(oprId)).getPassword().equals(pass) && opr.getActive() > 0){
 			return opr;
 		}else{
 			throw new DALException("Bruger ID eller password var forkert.");

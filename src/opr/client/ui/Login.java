@@ -36,13 +36,12 @@ public class Login extends Composite {
 		vPanel.add(lblTwo);
 		vPanel.add(password);
 
-		Button btnOne = new Button("Submit", new ClickHandler(){
+		Button btnOne = new Button("Submit", new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
 				try {
 					vPanel.add(new Label("test1"));		
 					c.getService().loginVerify(Integer.parseInt(userID.getText()), password.getText(), new AsyncCallback<OperatoerDTO>() {
-
 
 						@Override
 						public void onFailure(Throwable caught) {
