@@ -89,9 +89,15 @@ public class EditView extends Composite {
 						@Override
 						public void onSuccess(Void result) {
 							Window.alert("Successfully updated operator");
-							txtBoxCPR.setText(txtBoxCPR.getText());
-							txtBoxNavn.setText(txtBoxNavn.getText());
-							txtBoxPassword.setText(txtBoxPassword.getText());
+							try {
+								main.openListView();
+							} catch (Exception e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							//txtBoxCPR.setText(txtBoxCPR.getText());
+							//txtBoxNavn.setText(txtBoxNavn.getText());
+							//txtBoxPassword.setText(txtBoxPassword.getText());
 						}
 					});
 				} catch (Exception e1) {
