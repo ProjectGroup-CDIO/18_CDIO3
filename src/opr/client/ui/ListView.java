@@ -66,7 +66,12 @@ public class ListView extends Composite {
 				for(int i = 0; i < l.size(); i++) {
 					RadioButton btn = (RadioButton) ft.getWidget(i+1, 2);
 					if(btn.getValue()) {
-						main.openEditView(i+1);
+						try {
+							main.openEditView(i+1);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 					}
 				}
 				
