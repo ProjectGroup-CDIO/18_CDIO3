@@ -89,9 +89,9 @@ public class EditView extends Composite {
 						@Override
 						public void onSuccess(Void result) {
 							Window.alert("Successfully updated operator");
-							txtBoxCPR.setText("");
-							txtBoxNavn.setText("");
-							txtBoxPassword.setText("");
+							txtBoxCPR.setText(txtBoxCPR.getText());
+							txtBoxNavn.setText(txtBoxNavn.getText());
+							txtBoxPassword.setText(txtBoxPassword.getText());
 						}
 					});
 				} catch (Exception e1) {
