@@ -1,30 +1,26 @@
 package opr.client.ui;
 
-import opr.client.ui.MainView;
-
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.HorizontalPanel;
-import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.HasHorizontalAlignment;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class MenuView extends Composite {
 	private VerticalPanel vPanel = new VerticalPanel();
 
 
-	public MenuView(final MainView mainView){
-		this.initWidget(vPanel);
-		vPanel.setBorderWidth(1);
-		
+	public MenuView(final MainView main){
+		initWidget(this.vPanel);
+		this.vPanel.setBorderWidth(1);
 	
 		Button addBtn = new Button("ADD", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
 			
 				try {
-					mainView.openAddView();
+					main.openAddView();
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -36,7 +32,12 @@ public class MenuView extends Composite {
 		Button listBtn = new Button("LIST", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
-			
+				try {
+					main.openListView();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 		
 		});

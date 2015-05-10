@@ -7,6 +7,7 @@ import opr.shared.OperatoerDTO;
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlexTable;
+import com.google.gwt.user.client.ui.HasHorizontalAlignment;
 import com.google.gwt.user.client.ui.FlexTable.FlexCellFormatter;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
@@ -19,7 +20,7 @@ public class MainView extends Composite implements Login.Callback {
 	private Login login;
 	private ListView list;
 	private MenuView menu;
-	private EditView edit;
+//	private EditView edit;
 	private AddView add;
 	private final IOperatoerServiceAsync service = GWT.create(IOperatoerService.class);
 	
@@ -27,6 +28,7 @@ public class MainView extends Composite implements Login.Callback {
 		initWidget(ft);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
+		
 		list = new ListView(this);
 		ft.setWidget(0, 1, list);
 		ft.setBorderWidth(1);
@@ -37,6 +39,7 @@ public class MainView extends Composite implements Login.Callback {
 	public void openEditView(int oprId) throws Exception {
 		content.clear();
 		content.add(new EditView(this, oprId));
+		ft.setWidget(0,1,content);
 	}
 	
 	public void openAddView() throws Exception{
@@ -48,6 +51,12 @@ public class MainView extends Composite implements Login.Callback {
 	
 	public void openLoginView() {
 		
+	}
+	
+	public void openListView() throws Exception {
+		content.clear();
+		content.add(new ListView(this));
+		ft.setWidget(0, 1, content);
 	}
 	
 	@Override

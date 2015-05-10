@@ -26,6 +26,8 @@ public class ListView extends Composite {
 	private Anchor edit;
 	private List<OperatoerDTO> l;
 	private ArrayList<HorizontalPanel> al;
+	private OperatoerDTO opr;
+
 	
 
 	
@@ -51,13 +53,16 @@ public class ListView extends Composite {
 			public void onSuccess(List<OperatoerDTO> result) {
 				l = result;
 				for(int i = 0; i < l.size(); i++) {
-					ft.setText(i+1, 0, String.valueOf(l.get(i).getOprId()));
-					ft.setText(i+1, 1, l.get(i).getOprNavn());
-					ft.setWidget(i+1, 2, new RadioButton("check 'em", ""));
+					if (l.get(i).isActive() > 0) {
+						ft.setText(i + 1, 0,
+								String.valueOf(l.get(i).getOprId()));
+						ft.setText(i + 1, 1, l.get(i).getOprNavn());
+						ft.setWidget(i + 1, 2, new RadioButton("check 'em", ""));
+					}
 				}
 			}
-			
 		});
+		
 		Button editBtn = new Button("Edit");
 		editBtn.addClickHandler(new ClickHandler() {
 
@@ -66,35 +71,79 @@ public class ListView extends Composite {
 				for(int i = 0; i < l.size(); i++) {
 					RadioButton btn = (RadioButton) ft.getWidget(i+1, 2);
 					if(btn.getValue()) {
-						main.openEditView(i+1);
+						try {
+							main.openEditView(i+1);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 					}
 				}
-				
 			}
 			
 		});
 		
-		edit = new Anchor();
-		edit.addClickHandler(new ClickHandler() {
+		Button removeBtn = new Button("Remove");
+		removeBtn.addClickHandler(new ClickHandler() {
 
 			@Override
 			public void onClick(ClickEvent event) {
-//				main.openEditView();			
-			
+
+				for(int i = 0; i < l.size(); i++) {
+					RadioButton btn = (RadioButton) ft.getWidget(i+1, 2);
+					if(btn.getValue()) {
+						try {
+							main.getService().getOperatoer(i+1, new AsyncCallback<OperatoerDTO>() {
+
+								@Override
+								public void onFailure(Throwable caught) {
+									Window.alert("Noget gik galt: "+caught.getMessage());
+									
+								}
+
+								@Override
+								public void onSuccess(OperatoerDTO result) {
+									opr = result; 
+									try {
+										main.getService().deleteOperatoer(opr, new AsyncCallback<Void>() {
+
+											@Override
+											public void onFailure(Throwable caught) {
+												Window.alert("Error: "+caught.getMessage());
+												
+											}
+
+											@Override
+											public void onSuccess(Void result) {
+												Window.alert("Success: Operatør "+opr.getOprNavn()+" slettet.\n(Sat til inaktiv)");
+												
+											}
+											
+										});
+									} catch (Exception e) {
+										// TODO Auto-generated catch block
+										e.printStackTrace();
+									}
+									
+								}
+								
+							});
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}
 			}
 			
 		});
 		
-		remove = new Anchor();
-//		remove.addClickHandler(new ClickHandler() {
-//
-//			@Override
-//			public void onClick(ClickEvent event) {
-//				main.getService().deleteOperatoer(p, callback);
-//			}
-//			
-//		});
 		vPanel.add(ft);
+		HorizontalPanel buttonPanel = new HorizontalPanel();
+		buttonPanel.add(editBtn);
+		buttonPanel.add(removeBtn);
+		vPanel.add(buttonPanel);
+		
 		
 	}
 

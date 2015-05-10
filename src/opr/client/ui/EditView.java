@@ -21,29 +21,37 @@ public class EditView extends Composite {
 	private Label lblPassword = new Label ("Password");
 	private TextBox txtBoxPassword = new TextBox();
 	private OperatoerDTO opr;
-	
-	public EditView(final MainView main, final int oprID) throws Exception{
+
+	private Label IDlbl = new Label("ID");
+	private TextBox ID = new TextBox();
+
+	public EditView(final MainView main, final int oprID) throws Exception {
 		this.initWidget(ft);
-		
-		ft.setWidget(0, 0, lblCPR);
-		ft.setWidget(0, 1, lblNavn);
-		ft.setWidget(0, 2, lblPassword);
-		
+
+		ft.setWidget(0, 0, IDlbl);
+		ft.setWidget(0, 1, lblCPR);
+		ft.setWidget(0, 2, lblNavn);
+		ft.setWidget(0, 3, lblPassword);
+
+		ID.setText(""+oprID);
+
+
 		txtBoxCPR.setEnabled(true);
 		txtBoxNavn.setEnabled(true);
 		txtBoxPassword.setEnabled(true);
-		ft.setWidget(1, 0, txtBoxCPR);
-		ft.setWidget(1, 1, txtBoxNavn);
-		ft.setWidget(1, 2, txtBoxPassword);
-		
-		//ikke testet
-		opr = new OperatoerDTO(oprID, txtBoxNavn.getText(), "ini??",
-				txtBoxCPR.getText(), txtBoxPassword.getText());
-		
+		ft.setWidget(1, 0, ID);
+		ft.setWidget(1, 1, txtBoxCPR);
+		ft.setWidget(1, 2, txtBoxNavn);
+		ft.setWidget(1, 3, txtBoxPassword);
+
+
 		Button btnEdit = new Button("Edit", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
 				
+				//ikke testet
+				opr = new OperatoerDTO(oprID, txtBoxNavn.getText(), "ini??",
+						txtBoxCPR.getText(), txtBoxPassword.getText());
 				//ikke testet
 				try {
 					main.getService().updateOperatoer(opr, new AsyncCallback<Void>() {
@@ -51,32 +59,31 @@ public class EditView extends Composite {
 						@Override
 						public void onFailure(Throwable caught) {
 							Window.alert("Error: "+caught.getMessage());
-							
-						}
 
+						}
+						
 						@Override
 						public void onSuccess(Void result) {
 							Window.alert("Successfully updated operator");
+							txtBoxCPR.setText("");
+							txtBoxNavn.setText("");
+							txtBoxPassword.setText("");
 						}
-						
 					});
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 				
-			try{
-				
-				
-			} catch (Exception e){
-				e.printStackTrace();
+				try{
+				} catch (Exception e){
+					e.printStackTrace();
+				}
 			}
-				
-		}
-			
-	});
-		ft.setWidget(2, 4, btnEdit);
-}
+		});
 		
-	
+		ft.setWidget(2, 4, btnEdit);
+	}
+
+
 }
