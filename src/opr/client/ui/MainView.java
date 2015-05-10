@@ -27,7 +27,6 @@ public class MainView extends Composite implements Login.Callback {
 		initWidget(ft);
 		login = new Login(this);
 		ft.setWidget(0,0,login);
-		ft.setWidget(0, 1, login);
 	}
 	
 	public void openEditView(int oprId) throws Exception {
