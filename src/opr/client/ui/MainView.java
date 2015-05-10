@@ -18,7 +18,7 @@ public class MainView extends Composite implements Login.Callback {
 	private FlexCellFormatter ftFormat = ft.getFlexCellFormatter();
 	private VerticalPanel content = new VerticalPanel();
 	private Login login;
-	private ListView list;
+//	private ListView list;
 	private MenuView menu;
 //	private EditView edit;
 	private AddView add;
@@ -29,8 +29,8 @@ public class MainView extends Composite implements Login.Callback {
 		login = new Login(this);
 		ft.setWidget(0,0,login);
 		
-		list = new ListView(this);
-		ft.setWidget(0, 1, list);
+//		list = new ListView(this);
+//		ft.setWidget(0, 1, list);
 		ft.setBorderWidth(1);
 		ft.setWidget(0, 1, login);
 	}

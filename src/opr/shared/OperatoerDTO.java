@@ -44,6 +44,16 @@ public class OperatoerDTO implements Serializable
 		this.active = 1;
 	}
 	
+	public OperatoerDTO(int oprId, String oprNavn, String ini, String cpr, String password, int active)
+	{
+		this.oprId = oprId;
+		this.oprNavn = oprNavn;
+		this.ini = ini;
+		this.cpr = cpr;
+		this.password = password;
+		this.active = active;
+	}
+	
     public OperatoerDTO(OperatoerDTO opr)
     {
     	this.oprId = opr.getOprId();
@@ -65,7 +75,7 @@ public class OperatoerDTO implements Serializable
 	public String getPassword() { return password; }
 	public void setPassword(String password) { this.password = password; }
 	public String toString() { return oprId + "\t" + oprNavn + "\t" + ini + "\t" + cpr + "\t" + password; }
-	public int isActive() {
+	public int getActive() {
 		return active;
 	}
 	public void setActive(int active) {

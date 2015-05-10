@@ -69,7 +69,8 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 		{
 			while (rs.next()) 
 			{
-				list.add(new OperatoerDTO(rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"), rs.getString("cpr"), rs.getString("password")));
+				list.add(new OperatoerDTO(rs.getInt("opr_id"), rs.getString("opr_navn"), rs.getString("ini"),
+						rs.getString("cpr"), rs.getString("password"), rs.getInt("aktiv")));
 			}
 		}
 		catch (SQLException e) { throw new DALException(e.getMessage()); }

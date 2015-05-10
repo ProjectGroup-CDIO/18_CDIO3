@@ -52,12 +52,16 @@ public class ListView extends Composite {
 			@Override
 			public void onSuccess(List<OperatoerDTO> result) {
 				l = result;
+				int j = 1;
 				for(int i = 0; i < l.size(); i++) {
-					if (l.get(i).isActive() > 0) {
-						ft.setText(i + 1, 0,
+//					System.out.println(""+l.get(i).getActive()+":"+l.get(i).getOprId());
+//					Window.alert(""+l.get(i).getActive()+":"+l.get(i).getOprId());
+					if (l.get(i).getActive() == 1) {
+						ft.setText(j, 0,
 								String.valueOf(l.get(i).getOprId()));
-						ft.setText(i + 1, 1, l.get(i).getOprNavn());
-						ft.setWidget(i + 1, 2, new RadioButton("check 'em", ""));
+						ft.setText(j, 1, l.get(i).getOprNavn());
+						ft.setWidget(j, 2, new RadioButton("check 'em", ""));
+						j++;
 					}
 				}
 			}
