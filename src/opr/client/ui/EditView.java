@@ -41,6 +41,10 @@ public class EditView extends Composite {
 			@Override
 			public void onSuccess(OperatoerDTO result) {
 				opr = result;
+				txtBoxCPR.setText(opr.getCpr());
+				txtBoxNavn.setText(opr.getOprNavn());
+				txtBoxPassword.setText(opr.getPassword());
+				txtBoxIn.setText(opr.getIni());
 				
 			}
 			
@@ -65,9 +69,6 @@ public class EditView extends Composite {
 		ft.setWidget(1, 3, txtBoxPassword);
 		ft.setWidget(1, 4, txtBoxIn);
 		
-		txtBoxCPR.setText(""+oprID);
-
-
 		Button btnEdit = new Button("Edit", new ClickHandler(){
 			@Override
 			public void onClick(ClickEvent event) {
