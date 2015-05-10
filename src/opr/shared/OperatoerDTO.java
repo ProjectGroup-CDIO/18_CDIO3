@@ -16,6 +16,7 @@ public class OperatoerDTO implements Serializable
 	 * 
 	 */
 	private static final long serialVersionUID = -6563826727375700233L;
+	
 	/** Operatoer-identifikationsnummer (opr_id) i omraadet 1-99999999. Vaelges af brugerne */
 	int oprId;                     
 	/** Operatoernavn (opr_navn) min. 2 max. 20 karakterer */
@@ -61,7 +62,7 @@ public class OperatoerDTO implements Serializable
     	this.ini = opr.getIni();
     	this.cpr = opr.getCpr();
     	this.password = opr.getPassword();
-    	this.active = 1;
+    	this.active = opr.getActive();
     }
     
     public int getOprId() { return oprId; }
@@ -74,12 +75,8 @@ public class OperatoerDTO implements Serializable
 	public void setCpr(String cpr) { this.cpr = cpr; }
 	public String getPassword() { return password; }
 	public void setPassword(String password) { this.password = password; }
-	public String toString() { return oprId + "\t" + oprNavn + "\t" + ini + "\t" + cpr + "\t" + password; }
-	public int getActive() {
-		return active;
-	}
-	public void setActive(int active) {
-		this.active = active;
-	}
+	public String toString() { return oprId + "\t" + oprNavn + "\t" + ini + "\t" + cpr + "\t" + password + "\t" + (active>0? "aktiv":"inaktiv"); }
+	public int getActive() {return active;}
+	public void setActive(int active) { this.active = active; }
 	
 }

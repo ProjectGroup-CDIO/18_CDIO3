@@ -74,11 +74,12 @@ public class AddView extends Composite {
 				try {
 					if(boxCheck()){
 						mainView.getService().createOperatoer(new OperatoerDTO(Integer.parseInt(txtBoxID.getText()), 
-								txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), new AsyncCallback<Void>() {
+								txtBoxNavn.getText(), txtBoxIni.getText(), txtBoxCPR.getText(), txtBoxPass.getText()), 
+								new AsyncCallback<Void>() {
 
 							@Override
 							public void onFailure(Throwable caught) {
-								Window.alert("Failed to acces database:  n" + caught.getMessage());		
+								Window.alert("Failed to acces database: " + caught.getMessage());		
 
 							}
 
