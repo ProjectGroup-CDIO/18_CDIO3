@@ -29,8 +29,6 @@ public class ListView extends Composite {
 	private OperatoerDTO opr;
 
 	
-
-	
 	public ListView(final MainView main) throws Exception {
 		initWidget(this.vPanel);
 		final FlexTable ft = new FlexTable();
@@ -74,7 +72,7 @@ public class ListView extends Composite {
 					RadioButton btn = (RadioButton) ft.getWidget(i+1, 2);
 					if(btn.getValue()) {
 						try {
-							main.openEditView(i+1);
+							main.openEditView(Integer.parseInt(ft.getText(i+1, 0)));
 						} catch (Exception e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -95,7 +93,7 @@ public class ListView extends Composite {
 					RadioButton btn = (RadioButton) ft.getWidget(i+1, 2);
 					if(btn.getValue()) {
 						try {
-							main.getService().getOperatoer(i+1, new AsyncCallback<OperatoerDTO>() {
+							main.getService().getOperatoer(Integer.parseInt(ft.getText(i+1, 0)), new AsyncCallback<OperatoerDTO>() {
 
 								@Override
 								public void onFailure(Throwable caught) {
@@ -118,6 +116,12 @@ public class ListView extends Composite {
 											@Override
 											public void onSuccess(Void result) {
 												Window.alert("Success: Operatør "+opr.getOprNavn()+" slettet.\n(Sat til inaktiv)");
+												try {
+													main.openListView();
+												} catch (Exception e) {
+													// TODO Auto-generated catch block
+													e.printStackTrace();
+												}
 												
 											}
 											
