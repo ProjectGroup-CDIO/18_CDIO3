@@ -24,26 +24,26 @@ public class EditView extends Composite {
 	private TextBox txtBoxIn = new TextBox();
 	private OperatoerDTO opr;
 
-	private Label IDlbl = new Label("ID");
-	private TextBox ID = new TextBox();
+	private Label lblID = new Label("ID");
+	private TextBox txtBoxID = new TextBox();
 
 	public EditView(final MainView main, final int oprID) throws Exception {
 		this.initWidget(ft);
 
-		ft.setWidget(0, 0, IDlbl);
+		ft.setWidget(0, 0, lblID);
 		ft.setWidget(0, 1, lblCPR);
 		ft.setWidget(0, 2, lblNavn);
 		ft.setWidget(0, 3, lblPassword);
 		ft.setWidget(0, 4, lblIn);
 
-		ID.setText(""+oprID);
+		txtBoxID.setText(""+oprID);
 
-
+		txtBoxID.setEnabled(false);
 		txtBoxCPR.setEnabled(true);
 		txtBoxNavn.setEnabled(true);
 		txtBoxPassword.setEnabled(true);
 		txtBoxIn.setEnabled(true);
-		ft.setWidget(1, 0, ID);
+		ft.setWidget(1, 0, txtBoxID);
 		ft.setWidget(1, 1, txtBoxCPR);
 		ft.setWidget(1, 2, txtBoxNavn);
 		ft.setWidget(1, 3, txtBoxPassword);
