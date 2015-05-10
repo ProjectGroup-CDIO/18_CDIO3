@@ -6,9 +6,6 @@ import opr.shared.OperatoerDTO;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
-
-
-
 public interface IOperatoerServiceAsync {
 	
 	void loginVerify(int oprId, String pass, AsyncCallback<OperatoerDTO> callback);

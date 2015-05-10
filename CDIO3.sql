@@ -47,7 +47,7 @@ CREATE TABLE `operatoer` (
 
 LOCK TABLES `operatoer` WRITE;
 /*!40000 ALTER TABLE `operatoer` DISABLE KEYS */;
-INSERT INTO `operatoer` VALUES (1,'Hej Med Dig','HMD','234897-2342','hello2u',1),(2,'Thomas Liljegren','TLi','1702921745','1234567',1),(3,'Luigi Cool','LC','090990-9009','naellol',1),(4,'Don Juan','DJu','234567-7891','iloveyou',1),(5,'Kofi Anan','KAn','6969696969','yoloyolo',1),(9,'Lars Larsen','LLa','0203832233','password',1),(10,'Larsen Lars','LaL','0209231823','password',1);
+INSERT INTO `operatoer` VALUES (1,'Hej Med Dig','HMD','234897-2342','hello2u',1),(2,'Thomas Liljegren','TLi','1702921745','1234567',1),(3,'Luigi Cool','LC','090990-9009','naellol',1),(4,'Don Juan','DJu','234567-7891','iloveyou',1),(5,'Kofi Anan','KAn','6969696969','yoloyolo',1),(6,'Anders Fogh','AFo','4817824293','annemett',1),(7,'Britney Spears','BSp','1029402949','balislif',1),(8,'Barack Obama','BOb','1234539834','facebook',1),(9,'Lars Larsen','LLa','0203832233','password',1),(10,'Larsen Lars','LaL','0209231823','password',1);
 /*!40000 ALTER TABLE `operatoer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -224,4 +224,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-05-10 18:27:12
+-- Dump completed on 2015-05-10 22:45:54

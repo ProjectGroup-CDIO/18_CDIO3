@@ -11,6 +11,7 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.PasswordTextBox;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
@@ -19,7 +20,7 @@ public class Login extends Composite {
 	Label lblOne = new Label("User ID ");
 	Label lblTwo = new Label("Password ");
 	TextBox userID = new TextBox();
-	TextBox password = new TextBox();
+	PasswordTextBox password = new PasswordTextBox();
 
 	public interface Callback{
 		public void loginSucces(OperatoerDTO activeUser);
@@ -50,11 +51,9 @@ public class Login extends Composite {
 						}
 						@Override
 						public void onSuccess(OperatoerDTO data) {
-//							vPanel.add(new Label(data.getOprNavn()));
 
 							if(data.getOprId() >= 0){
 								c.loginSucces(data);
-//								vPanel.add(new Label(data.getOprNavn()));
 							}
 						}
 					});

@@ -107,7 +107,6 @@ public class AddView extends Composite {
 		if(txtBoxNavn.getText().length() >= 2 && txtBoxNavn.getText().length() <= 20){
 
 			if(txtBoxIni.getText().length()< 4 && txtBoxIni.getText().length()> 1){
-				//Should prolly check if the input CPR# only contains numbers maybe with a regex?
 				if(txtBoxCPR.getText().length() == 10 &&txtBoxCPR.getText().matches("[0-9]+")){
 					if(txtBoxPass.getText().length() == 7 || txtBoxPass.getText().length() == 8 ){
 						return true;

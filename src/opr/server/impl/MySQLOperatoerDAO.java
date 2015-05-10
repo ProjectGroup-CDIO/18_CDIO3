@@ -19,6 +19,8 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	/**
 	 * 
 	 */
+	private static final long serialVersionUID = 2707599696351605563L;
+
 	public MySQLOperatoerDAO(){
 		try {
 			new Connector();
@@ -34,7 +36,6 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 	}
 	
 	
-	private static final long serialVersionUID = 1L;
 
 	public OperatoerDTO getOperatoer(int oprId) throws DALException {
 		ResultSet rs = Connector.doQuery("SELECT * FROM operatoer WHERE opr_id = " + oprId);
@@ -103,6 +104,8 @@ public class MySQLOperatoerDAO extends RemoteServiceServlet implements Operatoer
 				opr.getOprId()
 		);
 	}
+
+
 
 
 	

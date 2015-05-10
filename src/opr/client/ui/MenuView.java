@@ -22,7 +22,6 @@ public class MenuView extends Composite {
 				try {
 					main.openAddView();
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -35,7 +34,6 @@ public class MenuView extends Composite {
 				try {
 					main.openListView();
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
