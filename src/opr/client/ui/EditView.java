@@ -20,6 +20,8 @@ public class EditView extends Composite {
 	private TextBox txtBoxNavn = new TextBox();
 	private Label lblPassword = new Label ("Password");
 	private TextBox txtBoxPassword = new TextBox();
+	private Label lblIn = new Label ("Initialer");
+	private TextBox txtBoxIn = new TextBox();
 	private OperatoerDTO opr;
 
 	private Label IDlbl = new Label("ID");
@@ -32,6 +34,7 @@ public class EditView extends Composite {
 		ft.setWidget(0, 1, lblCPR);
 		ft.setWidget(0, 2, lblNavn);
 		ft.setWidget(0, 3, lblPassword);
+		ft.setWidget(0, 4, lblIn);
 
 		ID.setText(""+oprID);
 
@@ -39,10 +42,12 @@ public class EditView extends Composite {
 		txtBoxCPR.setEnabled(true);
 		txtBoxNavn.setEnabled(true);
 		txtBoxPassword.setEnabled(true);
+		txtBoxIn.setEnabled(true);
 		ft.setWidget(1, 0, ID);
 		ft.setWidget(1, 1, txtBoxCPR);
 		ft.setWidget(1, 2, txtBoxNavn);
 		ft.setWidget(1, 3, txtBoxPassword);
+		ft.setWidget(1, 4, txtBoxIn);
 
 
 		Button btnEdit = new Button("Edit", new ClickHandler(){
